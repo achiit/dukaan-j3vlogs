@@ -1,0 +1,2098 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 100 car accessories in India | J3vlogs Car Picks</title>
+<meta name="description" content="The 100 most popular car accessories in India, with plain-English buying tips for each. Tap any product to check the current price and reviews on Amazon.in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --page:#F2F4F7;
+    --card:#FFFFFF;
+    --ink:#0F1B2D;
+    --muted:#525E6E;
+    --line:#D9DEE5;
+    --soft:#EAEEF3;
+    --plate:#FFC400;
+    --go:#0B7A4B;
+    --go-dark:#085F3A;
+    --focus:#0A57D6;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none !important}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--page);color:var(--ink);
+    font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    font-size:16px;line-height:1.5;
+  }
+  body:has(dialog[open]){overflow:hidden}
+  h1,h2,h3,p,ul,ol{margin:0}
+  ul,ol{padding:0;list-style:none}
+  a{color:inherit}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+  .sr{position:absolute;left:-9999px}
+
+  /* number plate: brand mark, hero and rank badges */
+  .plate{
+    display:inline-block;flex:none;min-width:52px;padding:5px 7px 3px;text-align:center;
+    background:var(--plate);color:var(--ink);border:2px solid var(--ink);border-radius:6px;
+    font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:24px;line-height:1;
+    font-variant-numeric:tabular-nums;
+  }
+
+  /* top bar */
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;text-decoration:none}
+  .brand .plate{font-size:18px;min-width:40px}
+  .nav-note{font-size:14px;color:var(--muted)}
+
+  /* popular picks carousel */
+  .pop{padding:2px 0 20px}
+  .pop-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+  h2{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:700;font-size:clamp(28px,4.5vw,40px);line-height:1.05}
+  .pop-head h2{font-size:clamp(24px,4vw,32px)}
+  .pop-controls{display:flex;align-items:center;gap:8px}
+  .pop-hint{font-size:12px;color:var(--muted);margin-right:4px}
+  .pop-arrow{display:grid;place-items:center;width:38px;height:38px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--ink);font-size:22px;line-height:1;cursor:pointer;box-shadow:0 3px 10px rgba(15,27,45,.06);transition:transform .18s,background .18s,border-color .18s}
+  .pop-arrow:hover{background:var(--plate);border-color:var(--ink);transform:translateY(-1px)}
+  .pop-arrow:active{transform:scale(.96)}
+  .marquee{touch-action:pan-x;scroll-snap-type:x proximity}
+  @media(max-width:600px){.pop{padding-bottom:14px}.pop-head{padding:0 2px}.pop-hint{display:none}.pop-arrow{width:34px;height:34px}.slide{scroll-snap-align:start}}
+  .marquee{
+    overflow-x:auto;overflow-y:hidden;scroll-behavior:auto;scrollbar-width:none;
+    overscroll-behavior-x:contain;cursor:grab;
+    -webkit-mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent);
+    mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent);
+  }
+  .marquee::-webkit-scrollbar{display:none}
+  .marquee.dragging{cursor:grabbing}
+  .track{display:flex;width:max-content}
+  .slide,.slide *{-webkit-user-drag:none;user-select:none;-webkit-user-select:none}
+  .slide{
+    flex:none;width:272px;margin-right:12px;display:flex;align-items:center;gap:12px;
+    padding:10px;background:var(--card);border:1px solid var(--line);border-radius:16px;text-decoration:none;
+  }
+  .slide:hover{border-color:var(--ink)}
+  .s-media{
+    position:relative;flex:none;width:76px;height:76px;border-radius:12px;overflow:hidden;
+    display:grid;place-items:center;background:var(--bg);color:var(--fg);
+  }
+  .s-media .ico svg{width:38px;height:38px;display:block}
+  .s-media .plate{position:absolute;left:4px;bottom:4px;z-index:1;min-width:0;padding:2px 5px 1px;font-size:14px;border-width:1.5px;border-radius:4px}
+  .s-text{display:flex;flex-direction:column;gap:3px;min-width:0}
+  .s-name{font-weight:700;font-size:15px;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .s-cta{font-size:13px;font-weight:700;color:var(--go)}
+
+  /* hero */
+  .hero{
+    position:relative;background:var(--plate);border:3px solid var(--ink);border-radius:26px;
+    padding:clamp(24px,5vw,52px) clamp(20px,5vw,56px);
+  }
+  .hero::before,.hero::after{
+    content:"";position:absolute;top:50%;width:12px;height:12px;margin-top:-6px;
+    border-radius:50%;background:var(--page);border:2px solid var(--ink);
+  }
+  .hero::before{left:12px}
+  .hero::after{right:12px}
+  h1{
+    font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:800;
+    font-size:clamp(44px,9vw,96px);line-height:.92;letter-spacing:-.01em;max-width:13ch;
+  }
+  .lede{margin-top:16px;max-width:50ch;font-size:clamp(16px,2.2vw,19px);font-weight:500}
+  .disclaimer{margin-top:12px;font-size:14px;color:var(--muted)}
+
+  /* sections */
+  section{padding-top:36px}
+  .sec-head{margin-bottom:14px}
+  .advice{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+  .advice li{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--plate);border-radius:6px 14px 14px 6px;padding:16px 18px}
+  .advice strong{display:block;margin-bottom:2px}
+  .advice span{color:var(--muted);font-size:15px}
+
+  /* shop by car */
+  .carpick{margin-top:20px;padding:18px;background:var(--card);border:1px solid var(--line);border-radius:18px}
+  .carpick h2{font-size:clamp(26px,4vw,34px)}
+  .carpick .sub{color:var(--muted);margin-top:2px}
+  .carrow{display:grid;gap:12px;grid-template-columns:1fr 1fr auto;align-items:end;margin-top:14px}
+  .cfield{display:grid;gap:4px}
+  .cfield label{font-size:14px;font-weight:700}
+  .cfield select{font:inherit;color:var(--ink);padding:11px 12px;border:2px solid var(--ink);border-radius:10px;background:#fff;width:100%}
+  .cfield select:disabled{border-color:var(--line);color:var(--muted);background:var(--soft)}
+  .car-status{margin-top:12px;font-size:14px;color:var(--muted);min-height:1.3em}
+  .carcustom{display:grid;gap:12px;grid-template-columns:1fr 1fr;align-items:end;margin-top:12px}
+  .cfield input[type=text]{font:inherit;color:var(--ink);padding:11px 12px;border:2px solid var(--ink);border-radius:10px;background:#fff;width:100%}
+  .evcheck{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600}
+  .evcheck input{width:18px;height:18px}
+
+  /* best selling, top rated, top deals */
+  .shelves{margin-top:6px}
+  .shelves h2{font-size:clamp(26px,4vw,34px)}
+  .tabs{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
+  .shelf-note{color:var(--muted);font-size:14px;margin-bottom:12px;max-width:64ch}
+  .shelf{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr))}
+  .pill.hot{background:var(--plate);color:var(--ink);font-weight:700;border:1.5px solid var(--ink)}
+  .was{text-decoration:line-through;color:var(--muted);font-weight:400;font-size:13px;margin-left:8px}
+
+  .grid-h{margin:10px 0 4px;scroll-margin-top:140px}
+  .grid-note{color:var(--muted);font-size:14px;margin-bottom:12px;max-width:62ch}
+  .grid.fit{padding-bottom:20px}
+
+  /* filter bar */
+  .filters{position:sticky;top:0;z-index:5;background:var(--page);padding:12px 0;margin-top:28px;border-bottom:1px solid var(--line)}
+  .search{
+    width:100%;max-width:440px;padding:12px 16px;font:inherit;color:var(--ink);
+    border:2px solid var(--ink);border-radius:999px;background:#fff;
+  }
+  .chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:thin}
+  .chip{
+    flex:none;font:inherit;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;
+    border:1.5px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;
+  }
+  .chip:hover{border-color:var(--ink)}
+  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+  .count{margin:16px 0 12px;color:var(--muted);font-size:14px}
+
+  /* product cards */
+  .grid{display:grid;gap:14px;padding-bottom:48px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+  .card{display:flex;flex-direction:column;height:100%;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:16px}
+  .card:hover{border-color:var(--ink)}
+  .media{
+    position:relative;display:grid;place-items:center;min-height:150px;
+    background:var(--bg);color:var(--fg);
+  }
+  .media .ico svg{width:68px;height:68px;display:block}
+  .media .plate{position:absolute;top:10px;left:10px;z-index:1}
+  .photo{position:absolute;inset:0;background:#fff;display:grid}
+  .photo img{width:100%;height:100%;object-fit:contain;padding:10px}
+  .media .photo ~ .plate{z-index:2}
+  .photo.cover{background:var(--bg)}
+  .photo.cover img{object-fit:cover;padding:0}
+  .cbody{display:flex;flex-direction:column;gap:8px;padding:14px 16px 16px;flex:1}
+  .pill{align-self:flex-start;background:var(--soft);border-radius:999px;padding:2px 11px;font-size:13px;font-weight:500;color:var(--muted)}
+  .name{font-size:18px;font-weight:700;line-height:1.25}
+  .price{font-weight:700}
+  .ptitle{color:var(--muted);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .asof{font-weight:400;color:var(--muted);font-size:12px;margin-left:6px}
+  .why{color:var(--muted);font-size:15px}
+  .mini{display:grid;gap:6px;font-size:14px}
+  .mini li{position:relative;padding-left:22px}
+  .mini li::before{
+    content:"";position:absolute;left:2px;top:5px;width:12px;height:7px;
+    border-left:2.5px solid var(--go);border-bottom:2.5px solid var(--go);transform:rotate(-45deg);
+  }
+  .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:6px}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;text-align:center;
+    font:inherit;font-weight:700;font-size:15px;line-height:1.2;text-decoration:none;cursor:pointer;
+    padding:11px 16px;border-radius:999px;border:2px solid transparent;
+  }
+  .ghost{background:#fff;border-color:var(--ink);color:var(--ink)}
+  .ghost:hover{background:var(--soft)}
+  .small{padding:6px 14px;font-size:14px}
+  .buy{background:var(--go);color:#fff;flex:1 1 auto}
+  .buy:hover{background:var(--go-dark)}
+  .buy:before{content:"↗";font-size:1.08em;margin-right:8px;font-weight:800}
+  .ghost:before{content:"✦";font-size:.95em;margin-right:7px;color:#9a6b00}
+
+  .empty{padding:32px 0 60px}
+  .empty p{margin-bottom:12px}
+
+  /* detail sheet */
+  dialog{
+    border:0;padding:0;background:var(--card);color:var(--ink);
+    width:min(560px,100%);max-height:90vh;border-radius:22px;overflow:auto;
+  }
+  dialog::backdrop{background:rgba(15,27,45,.55)}
+  .sheet{padding:20px 20px 24px}
+  .sheet-head{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .sheet-head .close{margin-left:auto}
+  .close{font:inherit;font-weight:600;font-size:14px;padding:7px 14px;border-radius:999px;border:1.5px solid var(--line);background:#fff;cursor:pointer}
+  .sheet h2{font-size:clamp(28px,6vw,36px)}
+  .sheet h3{font-size:15px;font-weight:700;margin:18px 0 6px}
+  .sheet p{color:var(--muted)}
+  .sheet .mini{font-size:15px;gap:8px}
+  .sheet .buy{display:flex;width:100%;margin-top:22px;padding:15px 16px;font-size:17px}
+  .note{margin-top:10px;font-size:13px;text-align:center}
+
+  @media (max-width:600px){
+    dialog{margin:auto 0 0;width:100%;max-width:none;border-radius:22px 22px 0 0}
+    .card{flex-direction:row}
+    .media{width:104px;min-height:0;flex:none}
+    .media .ico svg{width:44px;height:44px}
+    .media .plate{top:8px;left:8px;min-width:0;font-size:18px;padding:3px 6px 2px}
+    .cbody{padding:12px}
+    .actions{flex-direction:column}
+    .slide{width:244px}
+    .carrow,.carcustom{grid-template-columns:1fr}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    dialog[open]{animation:rise .22s ease-out}
+    @keyframes rise{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
+    dialog[open]::backdrop{animation:fade .22s ease-out}
+    @keyframes fade{from{opacity:0}to{opacity:1}}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .dup{display:none}
+  }
+
+  footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--muted);font-size:14px}
+  footer p{max-width:72ch;margin-bottom:6px}
+
+  /* Premium visual refresh */
+  :root{--page:#f4f6fa;--card:#fff;--ink:#101827;--muted:#5c6678;--line:#e1e6ee;--soft:#edf1f7;--plate:#ffd43b;--go:#087f5b;--go-dark:#066747;--focus:#246bfe}
+  body{background:radial-gradient(ellipse at 90% 0%,rgba(255,212,59,.15),transparent 28rem),var(--page)}
+  .nav{padding:18px 0 16px}
+  .brand{letter-spacing:-.025em}
+  .brand .plate{box-shadow:3px 3px 0 var(--ink);border-radius:8px}
+  .nav-note{display:inline-flex;align-items:center;gap:7px;padding:8px 12px;background:#fff;border:1px solid var(--line);border-radius:999px;font-weight:700}
+  .nav-note:before{content:"";width:8px;height:8px;border-radius:50%;background:#16a36a;box-shadow:0 0 0 3px #d9f7e9}
+  .pop{padding-bottom:26px}
+  .slide{box-shadow:0 4px 14px rgba(18,32,56,.045);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+  .slide:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(18,32,56,.11);border-color:#c4ccd8}
+  .s-media{box-shadow:inset 0 0 0 1px rgba(255,255,255,.7)}
+  .hero{background:linear-gradient(125deg,#ffdb4a 0%,#ffc928 58%,#ffb81c 100%);border:0;border-radius:28px;box-shadow:0 14px 35px rgba(166,116,0,.13);overflow:hidden}
+  .hero:after{width:300px;height:300px;top:auto;bottom:-180px;right:-45px;margin:0;border:0;background:rgba(255,255,255,.23);box-shadow:0 0 0 32px rgba(255,255,255,.12),0 0 0 66px rgba(255,255,255,.08)}
+  .hero:before{width:220px;height:220px;top:-150px;left:auto;right:190px;margin:0;border:0;background:rgba(255,255,255,.15);box-shadow:0 0 0 28px rgba(255,255,255,.08)}
+  .hero h1,.hero .lede{position:relative;z-index:1}
+  .hero h1{max-width:12ch;text-shadow:0 2px 0 rgba(255,255,255,.18)}
+  .lede{max-width:54ch;line-height:1.6}
+  .carpick{box-shadow:0 8px 28px rgba(18,32,56,.045);padding:22px;border-radius:22px}
+  .cfield select,.cfield input[type=text]{border:1.5px solid #d4dbe6;border-radius:12px;transition:border-color .2s,box-shadow .2s}
+  .cfield select:focus,.cfield input[type=text]:focus,.search:focus{outline:none;border-color:#246bfe;box-shadow:0 0 0 4px rgba(36,107,254,.12)}
+  .advice li{border:1px solid var(--line);border-left:4px solid var(--plate);border-radius:14px;box-shadow:0 4px 14px rgba(18,32,56,.025);transition:transform .2s,box-shadow .2s}
+  .advice li:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(18,32,56,.07)}
+  .filters{background:rgba(244,246,250,.94);backdrop-filter:blur(14px);border-bottom-color:#dce2eb}
+  .search{border:1.5px solid #d4dbe6;box-shadow:0 3px 10px rgba(18,32,56,.035)}
+  .chip{border-color:#dbe1e9;transition:background .15s,color .15s,border-color .15s,transform .15s}
+  .chip:active{transform:scale(.97)}
+  .card{border-color:#e1e6ee;border-radius:20px;box-shadow:0 5px 18px rgba(18,32,56,.045);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+  .card:hover{border-color:#c8d1df;box-shadow:0 14px 32px rgba(18,32,56,.105);transform:translateY(-3px)}
+  .media{min-height:176px;overflow:hidden;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.75),transparent 60%),var(--bg)}
+  .media .ico svg{width:82px;height:82px;filter:drop-shadow(0 7px 5px rgba(20,30,50,.13));transition:transform .25s ease}
+  .card:hover .media .ico svg{transform:translateY(-3px) scale(1.04)}
+  .media .plate{box-shadow:0 3px 8px rgba(15,27,45,.12)}
+  .cbody{padding:17px 18px 18px;gap:9px}
+  .pill{background:#f0f3f8;color:#4b586b;font-weight:700;letter-spacing:.01em}
+  .name{letter-spacing:-.018em}
+  .why{line-height:1.6}
+  .btn{border-radius:12px;transition:transform .16s,box-shadow .16s,background .16s}
+  .btn:hover{transform:translateY(-1px)}
+  .buy{box-shadow:0 4px 10px rgba(8,127,91,.18)}
+  .ghost{border-color:#cbd3df}
+  dialog{box-shadow:0 25px 80px rgba(7,18,36,.25)}
+  footer{margin-top:12px;background:rgba(255,255,255,.55)}
+  @media(max-width:600px){.hero{border-radius:22px}.hero h1{max-width:10ch}.media{min-height:120px}.card{border-radius:16px}.cbody{gap:7px}.card:hover{transform:none}}
+  @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+
+  /* Creator links + more app-like shopping experience */
+  .nav-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+  .social-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:9px 13px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:800;white-space:nowrap;transition:transform .18s,box-shadow .18s,filter .18s}
+  .social-link:hover{transform:translateY(-2px);box-shadow:0 7px 18px rgba(15,27,45,.14);filter:saturate(1.08)}
+  .social-link svg{width:18px;height:18px;display:block;flex:none}
+  .social-youtube{background:#ff0033;color:#fff;border:1px solid #e6002e}
+  .social-instagram{color:#fff;background:linear-gradient(115deg,#7c36d8 0%,#d62976 48%,#ff8a35 100%);border:1px solid rgba(181,46,112,.2)}
+  .creator-card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center;margin:20px 0 4px;padding:20px 22px;border:1px solid #e1e6ee;border-radius:22px;background:linear-gradient(120deg,#fff 0%,#fffdf5 100%);box-shadow:0 8px 25px rgba(18,32,56,.045)}
+  .creator-kicker{display:inline-flex;align-items:center;gap:7px;color:#6b7280;text-transform:uppercase;font-size:11px;font-weight:800;letter-spacing:.12em;margin-bottom:5px}
+  .creator-kicker:before{content:"";width:7px;height:7px;border-radius:50%;background:#0b9b68;box-shadow:0 0 0 4px #dff8ed}
+  .creator-card h2{font-size:clamp(24px,3vw,32px);margin-bottom:5px}
+  .creator-card p{max-width:58ch;color:var(--muted);font-size:14px;line-height:1.55}
+  .creator-actions{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+  .creator-actions .social-link{min-height:46px;padding:12px 16px;font-size:14px}
+  .social-footer{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0 14px}
+  .social-footer .social-link{min-height:38px;padding:8px 12px}
+  .shopping-hint{display:flex;align-items:center;gap:8px;margin:13px 0 0;color:var(--muted);font-size:13px}
+  .shopping-hint svg{width:17px;height:17px;flex:none;color:#087f5b}
+  @media(max-width:700px){.nav{align-items:flex-start}.nav-actions{gap:6px}.nav-note{display:none}.social-link{padding:8px 10px;font-size:12px}.creator-card{grid-template-columns:1fr;padding:18px;gap:14px}.creator-actions{display:grid;grid-template-columns:1fr 1fr}.creator-actions .social-link{width:100%;padding:11px 8px;font-size:12px}.creator-card h2{font-size:26px}}
+  @media(max-width:420px){.brand{font-size:14px;gap:7px}.brand .plate{min-width:35px;font-size:16px}.nav-actions .social-link{gap:5px}.nav-actions .social-link svg{width:16px;height:16px}.creator-actions{grid-template-columns:1fr}.creator-actions .social-link{font-size:14px}}
+
+
+  /* Top-of-page shopping discovery: searchable categories + car finder */
+  .discovery-wrap{padding-top:4px;padding-bottom:8px}
+  .filters{position:relative;top:auto;z-index:4;background:rgba(255,255,255,.88);backdrop-filter:blur(16px);border:1px solid #e0e6ef;border-radius:22px;padding:18px 18px 15px;margin:0 0 14px;box-shadow:0 10px 28px rgba(18,32,56,.055)}
+  .discover-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+  .discover-head h2{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-size:clamp(25px,3vw,32px);line-height:1.05}
+  .discover-kicker{display:block;text-transform:uppercase;font-size:10px;font-weight:800;letter-spacing:.13em;color:#68758a;margin-bottom:3px}
+  .secure-note{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;background:#e7f8ef;color:#08764f;border-radius:999px;font-size:12px;font-weight:800;white-space:nowrap}
+  .secure-note svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .searchbox{display:flex;align-items:center;gap:10px;min-height:54px;padding:0 12px;border:1.5px solid #d7dfeb;border-radius:15px;background:#f9fbfe;box-shadow:inset 0 1px 2px rgba(18,32,56,.025);transition:border-color .18s,box-shadow .18s}
+  .searchbox:focus-within{border-color:#246bfe;box-shadow:0 0 0 4px rgba(36,107,254,.1)}
+  .searchbox>svg{width:21px;height:21px;flex:none;fill:none;stroke:#68758a;stroke-width:2;stroke-linecap:round}
+  .searchbox .search{width:100%;max-width:none;min-width:0;padding:12px 0;border:0;background:transparent;box-shadow:none;outline:0!important;font-size:15px}
+  .searchbox .search:focus{box-shadow:none}
+  .search-shortcut{font-size:11px;font-weight:800;color:#7b8798;background:#edf1f7;border:1px solid #e1e6ee;border-radius:8px;padding:4px 7px;white-space:nowrap}
+  .category-heading{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:16px 2px 8px}
+  .category-heading h3{font-size:15px;font-weight:800;letter-spacing:-.02em}
+  .category-heading span{font-size:12px;color:#778195}
+  .chips{display:grid;grid-template-columns:repeat(11,minmax(74px,1fr));gap:8px;overflow:visible;padding:0;scrollbar-width:none}
+  .chip{min-width:0;min-height:88px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:10px 5px 9px;border:1px solid #e0e6ef;border-radius:14px;background:linear-gradient(180deg,#fff,#f8faff);color:#3b4658;cursor:pointer;font-size:11px;line-height:1.2;font-weight:800;text-align:center;white-space:normal;transition:transform .18s,border-color .18s,box-shadow .18s,background .18s}
+  .chip:hover{border-color:#bac7d8;box-shadow:0 7px 16px rgba(18,32,56,.07);transform:translateY(-2px)}
+  .chip[aria-pressed="true"]{background:linear-gradient(180deg,#fff7d7,#ffed9c);border-color:#edc62f;color:#172033;box-shadow:inset 0 0 0 1px rgba(237,198,47,.2),0 5px 12px rgba(166,116,0,.08)}
+  .chip-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--chip-bg,#eaf0fa);color:var(--chip-fg,#30425f);box-shadow:inset 0 0 0 1px rgba(255,255,255,.75)}
+  .chip-icon svg{display:block;width:25px;height:25px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .chip[aria-pressed="true"] .chip-icon{background:#fff;color:#172033}
+  .carpick{margin-top:0;padding:16px 18px;border-radius:20px;display:grid;grid-template-columns:minmax(190px,.8fr) minmax(0,1.7fr);column-gap:18px;align-items:center}
+  .carpick h2{font-size:clamp(24px,3vw,30px)}
+  .carpick .sub{font-size:13px;line-height:1.45;max-width:32ch}
+  .carrow{grid-column:2;grid-row:1 / span 2;margin-top:0;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;align-items:center}
+  .carcustom,.car-status{grid-column:1 / -1}
+  .car-status{margin-top:8px}
+  .carpick:before{content:"🚘";display:none}
+  .filters .chips::-webkit-scrollbar{display:none}
+  @media(max-width:1000px){.chips{grid-template-columns:repeat(6,minmax(74px,1fr))}.chip{min-height:82px}.carpick{grid-template-columns:1fr}.carrow{grid-column:1;grid-row:auto;margin-top:12px}.carpick .sub{max-width:none}}
+  @media(max-width:600px){.discovery-wrap{padding-top:0}.filters{padding:14px 12px 12px;border-radius:18px;margin-bottom:10px}.discover-head{align-items:center}.discover-head h2{font-size:27px}.secure-note{font-size:10px;padding:6px 8px}.searchbox{min-height:50px}.searchbox .search{font-size:14px}.search-shortcut{display:none}.category-heading{margin-top:14px}.chips{display:flex;gap:8px;overflow-x:auto;padding:1px 1px 8px;scroll-snap-type:x proximity;overscroll-behavior-x:contain}.chip{flex:0 0 86px;min-height:83px;scroll-snap-align:start}.chip-icon{width:35px;height:35px}.chip-icon svg{width:23px;height:23px}.carpick{padding:15px 13px;gap:2px}.carrow{grid-template-columns:1fr 1fr auto;gap:8px}.cfield label{font-size:12px}.cfield select{font-size:14px;padding:10px 8px}.car-status{font-size:12px}}
+  @media(max-width:390px){.carrow{grid-template-columns:1fr 1fr}.carrow #carClear{grid-column:1/-1}.discover-head h2{font-size:25px}.secure-note{gap:4px}.chip{flex-basis:80px}}
+
+
+  /* Search autocomplete + rotating featured product banner */
+  .search-area{position:relative;z-index:7}
+  .suggestions{position:absolute;left:0;right:0;top:calc(100% + 7px);background:#fff;border:1px solid #dce4ef;border-radius:16px;box-shadow:0 18px 44px rgba(18,32,56,.16);padding:6px;max-height:min(360px,55vh);overflow:auto;z-index:20}
+  .suggestion{display:flex;align-items:center;gap:11px;width:100%;padding:9px 10px;border:0;border-radius:11px;background:#fff;text-align:left;color:var(--ink);cursor:pointer}
+  .suggestion:hover,.suggestion:focus-visible{background:#f2f6fc;outline:none}
+  .suggestion-ico{display:grid;place-items:center;flex:none;width:42px;height:42px;border-radius:11px;overflow:hidden;background:var(--bg,#edf2fa);color:var(--fg,#334155)}
+  .suggestion-ico svg{width:25px;height:25px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .suggestion-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:2px}
+  .suggestion-name{font-size:14px;font-weight:800;line-height:1.25}
+  .suggestion-meta{font-size:12px;color:#778195}
+  .suggestion-arrow{font-size:19px;color:#8a95a6;padding:0 5px}
+  .suggestion-empty{padding:14px 12px;color:#68758a;font-size:13px}
+  .feature-wrap{padding-top:15px;padding-bottom:4px}
+  .feature-banner{position:relative;isolation:isolate;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(210px,.85fr);align-items:center;gap:20px;min-height:230px;padding:clamp(20px,4vw,34px);overflow:hidden;border-radius:25px;background:radial-gradient(circle at 83% 20%,rgba(255,255,255,.28),transparent 25%),linear-gradient(120deg,#101b31 0%,#1b3458 52%,#285e83 100%);color:#fff;box-shadow:0 16px 38px rgba(13,32,58,.18)}
+  .feature-banner:before{content:"";position:absolute;z-index:-1;width:300px;height:300px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-45px;top:-105px;box-shadow:0 0 0 25px rgba(255,255,255,.035),0 0 0 55px rgba(255,255,255,.025)}
+  .feature-copy{position:relative;z-index:1;min-width:0}
+  .feature-kicker{display:inline-flex;align-items:center;gap:7px;margin-bottom:12px;padding:6px 10px;border:1px solid rgba(255,255,255,.24);border-radius:999px;background:rgba(255,255,255,.1);font-size:11px;font-weight:900;letter-spacing:.09em;text-transform:uppercase;color:#ffe27a}
+  .feature-kicker:before{content:"✦";font-size:14px}
+  .feature-copy h2{max-width:17ch;font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-size:clamp(30px,4.3vw,49px);line-height:.98;letter-spacing:-.015em;color:#fff}
+  .feature-copy p{max-width:48ch;margin-top:10px;color:rgba(255,255,255,.78);font-size:14px;line-height:1.55}
+  .feature-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}
+  .feature-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:43px;padding:11px 16px;border:1px solid transparent;border-radius:999px;background:#ffd43b;color:#172033;font:inherit;font-size:13px;font-weight:900;text-decoration:none;cursor:pointer;transition:transform .18s,box-shadow .18s}
+  .feature-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.18)}
+  .feature-btn.secondary{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.24);color:#fff}
+  .feature-visual{position:relative;display:grid;place-items:center;min-width:0;min-height:180px}
+  .feature-art{position:relative;display:grid;place-items:center;width:min(100%,260px);height:185px;border:1px solid rgba(255,255,255,.22);border-radius:23px;background:linear-gradient(145deg,rgba(255,255,255,.2),rgba(255,255,255,.055));box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 18px 35px rgba(0,0,0,.15);transform:rotate(2deg);transition:opacity .25s,transform .25s}
+  .feature-art .ico svg{width:110px;height:110px;filter:drop-shadow(0 9px 10px rgba(0,0,0,.12))}
+  .feature-art .plate{left:12px;top:12px;bottom:auto;position:absolute}
+  .feature-art .photo{position:absolute;inset:0;border-radius:22px;overflow:hidden;background:transparent}
+  .feature-art .photo img{object-fit:contain;padding:15px}
+  .feature-art .photo.cover img{object-fit:cover;padding:0}
+  .feature-product-visual{position:relative;display:grid;place-items:center;width:100%;height:100%}
+  .feature-art .media{display:none}
+  .feature-art .ico{display:grid;place-items:center}
+  .feature-art .ico svg{width:110px;height:110px}
+  .feature-banner.is-changing .feature-copy{opacity:.72}
+  .feature-dots{display:flex;justify-content:center;gap:6px;margin-top:12px}
+  .feature-dot{width:7px;height:7px;padding:0;border:0;border-radius:99px;background:rgba(255,255,255,.35);cursor:pointer;transition:width .2s,background .2s}
+  .feature-dot[aria-current="true"]{width:22px;background:#ffd43b}
+  .feature-note{margin-top:8px;font-size:11px;color:rgba(255,255,255,.62)}
+  .card[data-product-name],.grid-h{scroll-margin-top:22px}
+  .count{scroll-margin-top:16px}
+  .card.search-target{outline:3px solid #ffc400;outline-offset:3px;animation:targetPulse 1.4s ease-out}
+  @keyframes targetPulse{0%{box-shadow:0 0 0 8px rgba(255,196,0,.35)}100%{box-shadow:0 0 0 0 rgba(255,196,0,0)}}
+  @media(max-width:650px){.feature-banner{grid-template-columns:minmax(0,1fr) 115px;gap:10px;min-height:205px;padding:18px 15px;border-radius:20px}.feature-copy h2{font-size:clamp(29px,7vw,38px)}.feature-copy p{font-size:12px;line-height:1.4;margin-top:8px}.feature-kicker{font-size:9px;padding:5px 8px;margin-bottom:9px}.feature-actions{gap:7px;margin-top:12px}.feature-btn{min-height:39px;padding:9px 11px;font-size:11px}.feature-visual{min-height:130px}.feature-art{height:125px;border-radius:17px}.feature-art .ico svg{width:68px;height:68px}.feature-art .plate{left:7px;top:7px;min-width:0;font-size:14px;padding:3px 5px 2px}.feature-art .photo{border-radius:16px}.feature-note{font-size:9px}.feature-wrap{padding-top:10px}}
+  @media(max-width:390px){.feature-banner{grid-template-columns:minmax(0,1fr) 92px;gap:7px;padding:14px 12px}.feature-copy h2{font-size:27px}.feature-art{height:105px}.feature-art .ico svg{width:55px;height:55px}.feature-btn{font-size:10px;padding:8px 9px}}
+  @media(prefers-reduced-motion:reduce){.feature-product,.feature-btn,.feature-dot{transition:none}.card.search-target{animation:none}}
+
+
+  /* Premium discovery flow and motion */
+  .pop{padding-top:4px;padding-bottom:10px}
+  .marquee{touch-action:pan-x;overscroll-behavior-x:contain;cursor:grab}
+  .marquee:active{cursor:grabbing}
+  .feature-banner{touch-action:pan-y;cursor:grab}
+  .feature-banner:after{content:"";position:absolute;z-index:-1;inset:-45%;pointer-events:none;background:conic-gradient(from 0deg,transparent 0 22%,rgba(255,211,58,.12) 28%,transparent 36% 58%,rgba(87,194,255,.12) 65%,transparent 73%);animation:featureOrbit 16s linear infinite}
+  .feature-banner:before{animation:featurePulse 6s ease-in-out infinite alternate}
+  .feature-kicker{animation:kickerGlow 2.8s ease-in-out infinite alternate}
+  .feature-banner.is-changing .feature-art{opacity:.35;transform:translateX(10px) rotate(0deg) scale(.96)}
+  .feature-banner.is-changing .feature-copy h2{animation:featureTextIn .38s ease-out both}
+  .feature-banner .feature-copy:after{content:"SWIPE TO EXPLORE  ←  →";display:block;margin-top:8px;color:rgba(255,255,255,.46);font-size:9px;font-weight:900;letter-spacing:.15em}
+  @keyframes featureOrbit{to{transform:rotate(360deg)}}
+  @keyframes featurePulse{from{transform:scale(.94);opacity:.55}to{transform:scale(1.06);opacity:1}}
+  @keyframes kickerGlow{from{box-shadow:0 0 0 rgba(255,212,59,0)}to{box-shadow:0 0 22px rgba(255,212,59,.2)}}
+  @keyframes featureTextIn{from{opacity:.3;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+  .discovery-car-wrap{padding-top:10px}
+  .car-preview{grid-column:1/-1;display:grid;grid-template-columns:minmax(150px,.8fr) minmax(0,1.2fr);gap:16px;align-items:center;margin-top:12px;padding:12px;border:1px solid #dce4ef;border-radius:17px;background:linear-gradient(135deg,#f8fbff,#fff);overflow:hidden}
+  .car-preview-photo{position:relative;display:grid;place-items:center;min-height:150px;border-radius:13px;overflow:hidden;background:radial-gradient(circle at 50% 20%,#fff,#e9eff8 76%)}
+  .car-preview-photo img{display:block;width:100%;height:170px;object-fit:contain;padding:8px}
+  .car-preview-fallback{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;padding:15px;text-align:center;color:#607086}
+  .car-preview-fallback span{font-size:40px;filter:drop-shadow(0 5px 4px #cbd5e1)}
+  .car-preview-fallback strong{font-size:13px;color:#34445c}
+  .car-preview-fallback small{font-size:11px;line-height:1.4}
+  .car-preview-caption{display:flex;flex-direction:column;gap:6px;min-width:0}
+  .car-preview-tag{font-size:10px;font-weight:900;letter-spacing:.13em;color:#0a7955}
+  .car-preview-caption strong{font-size:clamp(18px,3vw,25px);line-height:1.1;overflow-wrap:anywhere}
+  .car-preview-caption span:not(.car-preview-tag){font-size:12px;color:#66758b;line-height:1.45}
+  .car-preview-caption a{font-size:12px;font-weight:800;color:#245bc4;text-decoration:none}
+  .bottom-info{margin-top:24px;padding-top:8px}
+  .bottom-info .hero{padding:18px 22px;border-radius:18px;margin-bottom:14px}
+  .bottom-info .hero h1{font-size:clamp(26px,4vw,42px);max-width:none;line-height:1.02}
+  .bottom-info .hero .lede{font-size:13px;margin-top:6px;max-width:80ch}
+  .bottom-info .creator-card{margin:0 0 14px;padding:16px 18px;border-radius:18px}
+  .bottom-info .creator-card h2{font-size:clamp(22px,3vw,28px)}
+  .bottom-info .creator-card p{font-size:13px}
+  .bottom-info .advice{grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+  @media(max-width:600px){.car-preview{grid-template-columns:1fr;gap:10px}.car-preview-photo{min-height:130px}.car-preview-photo img{height:145px}.car-preview-fallback{padding:12px}.bottom-info .hero{padding:16px}.bottom-info .creator-card{padding:15px}.feature-banner .feature-copy:after{font-size:8px;letter-spacing:.08em}}
+  @media(prefers-reduced-motion:reduce){.feature-banner:after,.feature-banner:before,.feature-kicker{animation:none!important}.feature-banner.is-changing .feature-copy h2{animation:none}}
+
+
+  /* Compact animated Top 100 banner */
+  .top-hero{position:relative;margin:0 0 16px;padding:18px 24px 17px;border-radius:20px;min-height:0;display:grid;grid-template-columns:auto 1fr;align-items:center;column-gap:20px;row-gap:4px;background:linear-gradient(115deg,#101827,#192b49 55%,#0d5149);color:#fff;border:1px solid rgba(255,255,255,.12);box-shadow:0 12px 28px rgba(16,24,39,.16);overflow:hidden}
+  .top-hero:before{content:"";position:absolute;inset:-80% -10%;background:linear-gradient(110deg,transparent 38%,rgba(255,255,255,.1) 48%,transparent 58%);animation:heroShimmer 5s linear infinite;pointer-events:none}
+  .top-hero:after{content:"";position:absolute;width:190px;height:190px;right:4%;top:-120px;border-radius:50%;border:1px solid rgba(255,212,59,.24);box-shadow:0 0 0 22px rgba(255,212,59,.05),0 0 0 44px rgba(255,212,59,.035);pointer-events:none}
+  .top-hero-kicker{grid-column:1/-1;font-size:10px;letter-spacing:.22em;font-weight:900;color:#ffdb4d;position:relative;z-index:1;animation:heroTextGlow 2s ease-in-out infinite alternate}
+  .top-hero h1{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-size:clamp(30px,4.5vw,46px);line-height:.95;letter-spacing:.005em;max-width:none;position:relative;z-index:1;white-space:nowrap}
+  .top-hero h1 span{color:#ffdb4d;display:inline-block;animation:heroTextPop 3s ease-in-out infinite}
+  .top-hero .lede{margin:0;font-size:13px;max-width:42ch;color:rgba(255,255,255,.82);position:relative;z-index:1;line-height:1.45}
+  .hero-spark{position:absolute;right:24px;bottom:12px;color:#ffdb4d;font-size:28px;animation:sparkSpin 8s linear infinite;opacity:.85}
+  @keyframes heroShimmer{0%{transform:translateX(-35%)}100%{transform:translateX(35%)}}
+  @keyframes heroTextGlow{from{text-shadow:0 0 0 rgba(255,219,77,0)}to{text-shadow:0 0 12px rgba(255,219,77,.5)}}
+  @keyframes heroTextPop{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+  @keyframes sparkSpin{to{transform:rotate(360deg)}}
+  .news-section{margin:26px 0 20px;padding:22px;border:1px solid #e1e6ee;border-radius:22px;background:linear-gradient(135deg,#fff,#f8fbff);box-shadow:0 8px 24px rgba(18,32,56,.045)}
+  .news-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:14px}
+  .news-kicker{font-size:10px;letter-spacing:.15em;font-weight:900;color:#087f5b}
+  .news-head h2{font-size:clamp(27px,4vw,36px);margin:4px 0 5px}
+  .news-head p{font-size:13px;color:var(--muted)}
+  .news-live{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;padding:7px 10px;border-radius:999px;background:#e9f8ef;color:#08764f;font-size:11px;font-weight:900}
+  .news-live i{width:7px;height:7px;border-radius:50%;background:#0b9b68;box-shadow:0 0 0 4px #d9f7e7}
+  .news-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .news-list li{display:flex;flex-direction:column;gap:8px;padding:15px 16px;border:1px solid #e1e7f0;border-radius:15px;background:#fff;transition:transform .18s,box-shadow .18s,border-color .18s}
+  .news-list li:hover{transform:translateY(-2px);border-color:#c8d4e3;box-shadow:0 8px 20px rgba(18,32,56,.07)}
+  .news-list a{font-size:15px;line-height:1.4;font-weight:800;text-decoration:none;color:#17243a}
+  .news-list a:hover{text-decoration:underline;text-decoration-color:#087f5b;text-underline-offset:3px}
+  .news-source{font-size:11px;font-weight:700;color:#69768a}
+  .news-disclaimer{margin-top:12px;font-size:11px;line-height:1.5;color:#778195}
+  .footer-legal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .footer-legal h3{font-size:14px;color:var(--ink);margin-bottom:7px}
+  .footer-legal p{font-size:12px;line-height:1.6;margin-bottom:8px}
+  @media(max-width:760px){.top-hero{grid-template-columns:1fr;gap:7px;padding:17px 18px}.top-hero h1{white-space:normal;font-size:clamp(31px,8vw,43px)}.top-hero .lede{max-width:55ch}.hero-spark{right:15px;bottom:10px}.news-list{grid-template-columns:1fr}.news-section{padding:17px;border-radius:18px}.news-head{gap:8px}.news-live{font-size:10px;padding:6px 8px}.footer-legal{grid-template-columns:1fr;gap:8px}}
+  @media(prefers-reduced-motion:reduce){.top-hero:before,.top-hero h1 span,.top-hero-kicker,.hero-spark{animation:none!important}}
+
+
+
+  /* Compact auto-news ticker and fixed mobile-friendly bottom dock */
+  body{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+  .news-ticker{display:flex;align-items:center;gap:10px;min-height:36px;margin:0 auto 10px;padding:6px 10px;border:1px solid #dce4ef;border-radius:10px;background:#101827;color:#fff;overflow:hidden}
+  .ticker-label{display:inline-flex;align-items:center;gap:6px;flex:none;padding:4px 7px;border-radius:6px;background:#ffd43b;color:#172033;font-size:10px;font-weight:900;letter-spacing:.06em}
+  .ticker-dot{width:6px;height:6px;border-radius:50%;background:#d11f35;box-shadow:0 0 0 3px rgba(209,31,53,.18)}
+  .ticker-window{min-width:0;flex:1;overflow:hidden;white-space:nowrap}
+  .ticker-track{display:flex;width:max-content;align-items:center;gap:34px;animation:tickerScroll 38s linear infinite}
+  .ticker-track a{color:#fff;text-decoration:none;font-size:12px;font-weight:700}
+  .ticker-track a:after{content:'•';margin-left:34px;color:#ffd43b}
+  .ticker-track a:hover{text-decoration:underline}
+  .news-ticker:hover .ticker-track,.news-ticker:focus-within .ticker-track{animation-play-state:paused}
+  @keyframes tickerScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .bottom-dock{position:fixed;z-index:1000;left:50%;bottom:calc(8px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);width:min(560px,calc(100% - 20px));display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;padding:7px;border:1px solid rgba(209,217,229,.92);border-radius:20px;background:rgba(255,255,255,.94);box-shadow:0 12px 38px rgba(15,27,45,.2);backdrop-filter:blur(18px)}
+  .dock-btn{display:flex;min-width:0;min-height:54px;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:5px 3px;border:0;border-radius:13px;background:transparent;color:#586579;font:inherit;font-size:10px;font-weight:800;text-decoration:none;cursor:pointer;line-height:1.1}
+  .dock-btn svg{width:22px;height:22px;display:block;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+  .dock-btn:hover,.dock-btn:focus-visible{background:#f0f4fa;color:#172033}
+  .dock-btn.active{background:#fff2b9;color:#172033;box-shadow:inset 0 0 0 1px #f1d45d}
+  .dock-btn.ask{background:#101827;color:#fff}
+  .dock-btn.ask:hover,.dock-btn.ask:focus-visible{background:#24395b;color:#fff}
+  .ask-page{width:min(720px,100%);height:min(92dvh,900px);max-height:92dvh;margin:auto;border:0;border-radius:24px;padding:0;background:#f5f7fb;color:#101827;box-shadow:0 24px 90px rgba(0,0,0,.3);overflow:hidden}
+  .ask-page::backdrop{background:rgba(8,16,30,.65);backdrop-filter:blur(5px)}
+  .ask-layout{display:flex;flex-direction:column;height:100%;min-height:0}
+  .ask-top{display:flex;align-items:center;gap:12px;padding:16px 18px;background:#101827;color:#fff}
+  .ask-avatar{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:#ffd43b;color:#172033;font-size:21px;font-weight:900;flex:none}
+  .ask-title{min-width:0;flex:1}.ask-title strong{display:block;font-size:17px}.ask-title span{font-size:12px;color:#cbd5e1}
+  .ask-close{border:1px solid #566276;background:#26364e;color:#fff;border-radius:999px;padding:8px 12px;font:inherit;font-weight:700;cursor:pointer}
+  .ask-suggestions{display:flex;gap:8px;overflow-x:auto;padding:12px 14px;background:#fff;border-bottom:1px solid #e1e6ee}
+  .ask-suggestion{flex:none;padding:8px 11px;border:1px solid #dce3ed;border-radius:999px;background:#f8fafc;color:#253248;font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+  .ask-messages{flex:1;min-height:0;overflow:auto;display:flex;flex-direction:column;gap:12px;padding:18px 14px}
+  .ask-msg{max-width:88%;padding:12px 14px;border-radius:16px;font-size:14px;line-height:1.5;white-space:pre-wrap;overflow-wrap:anywhere}
+  .ask-msg.bot{align-self:flex-start;background:#fff;border:1px solid #e1e6ee;border-top-left-radius:5px}
+  .ask-msg.user{align-self:flex-end;background:#172a45;color:#fff;border-top-right-radius:5px}
+  .ask-products{display:grid;gap:8px;margin-top:9px}
+  .ask-product{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px;border:1px solid #dfe6ef;border-radius:12px;background:#f9fbfe}
+  .ask-product strong{font-size:13px}.ask-product a{flex:none;color:#087f5b;font-size:12px;font-weight:900;text-decoration:none}
+
+  .ask-research{margin-top:10px;display:grid;gap:10px;min-width:0}
+  .ask-search-links{display:flex;flex-wrap:wrap;gap:7px}
+  .ask-search-links a{display:inline-flex;align-items:center;padding:7px 10px;border:1px solid #dce4ef;border-radius:999px;background:#f8fafc;color:#1d4e9e;font-size:12px;font-weight:800;text-decoration:none}
+  .ask-source-group{display:grid;gap:7px}
+  .ask-source-heading{font-size:11px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:#64748b}
+  .ask-source-result{display:block;padding:9px 10px;border:1px solid #e1e7f0;border-radius:11px;background:#fff;color:#1e293b;text-decoration:none}
+  .ask-source-result strong{display:block;font-size:12px;line-height:1.4}
+  .ask-source-result small{display:block;margin-top:4px;color:#718096;font-size:10px;line-height:1.4}
+  .ask-source-status{font-size:11px;color:#64748b}
+  .ask-products .ask-product{align-items:flex-start;flex-direction:column}
+  .ask-products .ask-product a{display:inline-flex;padding:7px 10px;border-radius:9px;background:#e8f7ef;color:#087f5b}
+
+  .ask-compose{display:flex;align-items:flex-end;gap:8px;padding:12px;border-top:1px solid #dfe6ef;background:#fff}
+  .ask-compose textarea{resize:none;min-height:46px;max-height:110px;flex:1;width:100%;padding:12px;border:1.5px solid #d5deea;border-radius:14px;font:inherit;font-size:14px;color:#172033;background:#fff}
+  .ask-send{min-height:46px;padding:0 16px;border:0;border-radius:13px;background:#087f5b;color:#fff;font:inherit;font-weight:900;cursor:pointer}
+  .ask-note{padding:0 14px 10px;background:#fff;color:#68758a;font-size:10px;line-height:1.4}
+  @media(max-width:600px){.news-ticker{margin-left:0;margin-right:0;border-radius:8px}.ticker-label{font-size:9px}.ticker-track a{font-size:11px}.bottom-dock{width:calc(100% - 16px);bottom:calc(6px + env(safe-area-inset-bottom,0px));padding:6px;border-radius:17px}.dock-btn{min-height:50px;font-size:9px}.dock-btn svg{width:21px;height:21px}.ask-page{width:100%;height:100dvh;max-height:100dvh;border-radius:0}.ask-top{padding-top:calc(13px + env(safe-area-inset-top,0px))}}
+  @media(prefers-reduced-motion:reduce){.ticker-track{animation:none}.news-ticker{overflow-x:auto}.ticker-window{overflow-x:auto}.ticker-track{width:max-content}}
+
+
+  /* Dedicated in-app pages opened from the bottom dock */
+  .browse-page{position:fixed;inset:0;z-index:1200;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;border-radius:0;background:#f4f6fa;color:#101827;overflow:hidden}
+  .browse-page::backdrop{background:rgba(8,16,30,.72)}
+  /* A dock copy lives inside each modal so it remains visible above the page's top layer. */
+  .browse-page>.bottom-dock,.ask-page>.bottom-dock{position:absolute;left:50%;bottom:calc(7px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:1400;width:min(560px,calc(100% - 20px));}
+  .browse-content{padding-bottom:calc(108px + env(safe-area-inset-bottom,0px))}
+  .ask-layout{padding-bottom:76px;box-sizing:border-box}
+  @media(max-width:600px){.browse-page>.bottom-dock,.ask-page>.bottom-dock{width:calc(100% - 16px);bottom:calc(6px + env(safe-area-inset-bottom,0px))}.browse-content{padding-bottom:calc(108px + env(safe-area-inset-bottom,0px))}.ask-layout{padding-bottom:76px}}
+  .browse-layout{display:flex;flex-direction:column;width:100%;height:100%;min-height:0}
+  .browse-top{display:flex;align-items:center;gap:12px;padding:calc(14px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 14px max(16px,env(safe-area-inset-left,0px));background:#101827;color:#fff;box-shadow:0 4px 18px rgba(15,27,45,.14)}
+  .browse-back{width:40px;height:40px;flex:none;border:1px solid #566276;border-radius:12px;background:#26364e;color:#fff;font:inherit;font-size:24px;cursor:pointer}
+  .browse-title{min-width:0;flex:1}.browse-title h2{font-size:25px;line-height:1.1;color:#fff}.browse-title p{margin-top:4px;font-size:12px;color:#cbd5e1}
+  .browse-content{flex:1;min-height:0;overflow:auto;padding:18px 16px calc(28px + env(safe-area-inset-bottom,0px));overscroll-behavior:contain}
+  .browse-categories{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:10px;max-width:1100px;margin:0 auto}
+  .browse-category{display:flex;min-height:112px;flex-direction:column;align-items:center;justify-content:center;gap:9px;padding:12px 8px;border:1px solid #dfe6ef;border-radius:17px;background:#fff;color:#253248;font:inherit;font-size:12px;font-weight:800;text-align:center;cursor:pointer;box-shadow:0 4px 13px rgba(18,32,56,.04)}
+  .browse-category:hover,.browse-category:focus-visible{border-color:#e5bf22;background:#fff9df;outline-offset:2px}
+  .browse-category .chip-icon{width:46px;height:46px}.browse-category .chip-icon svg{width:29px;height:29px}
+  .browse-products{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr));gap:14px;max-width:1100px;margin:0 auto}
+  .browse-empty{max-width:680px;margin:20px auto;padding:20px;border:1px solid #dfe6ef;border-radius:16px;background:#fff;color:#5c6678}
+  #sheet>.bottom-dock{position:fixed;left:50%;bottom:calc(7px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:1400;width:min(560px,calc(100% - 20px));}
+  #sheet .sheet{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}
+  .affiliate-intro{max-width:1100px;margin:0 auto 14px;padding:14px 16px;border:1px solid #dce5f0;border-radius:15px;background:#fff;color:#5c6678;font-size:13px;line-height:1.5}
+  .affiliate-result-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid #e1e6ee;border-radius:17px;background:#fff;box-shadow:0 5px 18px rgba(18,32,56,.045)}
+  .affiliate-result-card .media{min-height:125px}
+  .affiliate-result-card .cbody{display:flex;flex-direction:column;gap:8px;padding:14px;flex:1}
+  .affiliate-result-card .actions{margin-top:auto;padding-top:8px}
+  @media(max-width:600px){#sheet>.bottom-dock{width:calc(100% - 16px);bottom:calc(6px + env(safe-area-inset-bottom,0px))}#sheet .sheet{padding-bottom:calc(108px + env(safe-area-inset-bottom,0px))}.affiliate-result-card{flex-direction:row}.affiliate-result-card .media{width:104px;min-height:0;flex:none}.affiliate-result-card .media .ico svg{width:44px;height:44px}.affiliate-result-card .cbody{padding:12px}.affiliate-result-card .actions{flex-direction:column}}
+  @media(max-width:600px){.browse-content{padding:14px 12px calc(24px + env(safe-area-inset-bottom,0px))}.browse-categories{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.browse-category{min-height:100px;padding:10px 5px;font-size:11px;border-radius:14px}.browse-category .chip-icon{width:40px;height:40px}.browse-category .chip-icon svg{width:25px;height:25px}.browse-products{grid-template-columns:1fr}.browse-products .card{flex-direction:row}.browse-products .media{width:104px;min-height:0;flex:none}.browse-products .media .ico svg{width:44px;height:44px}.browse-products .cbody{padding:12px}.browse-products .actions{flex-direction:column}}
+
+  /* Ask Me: readable answer-first chat research layout */
+  .ask-chat-heading{display:block;margin:2px 0 7px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#087f5b}
+  .ask-chat-summary{font-size:14px;line-height:1.6;margin-bottom:14px}
+  .ask-chat-footnote{margin-top:10px;font-size:11px;line-height:1.45;color:#68758a}
+  .ask-chat-result{padding:10px 0;border-top:1px solid #e6ebf2}
+  .ask-chat-result>a{display:block;color:#245bc4;font-size:14px;font-weight:800;line-height:1.45;text-decoration:none}
+  .ask-chat-result>a:hover{text-decoration:underline}
+  .ask-chat-result-snippet{margin-top:4px;color:#4f5d71;font-size:13px;line-height:1.5}
+  .ask-search-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .ask-search-links a{display:inline-flex;align-items:center;padding:9px 12px;border:1px solid #d7e0ed;border-radius:999px;background:#f7faff;color:#245bc4;font-size:12px;font-weight:800;text-decoration:none}
+  .ask-search-links a:hover{background:#eaf2ff;border-color:#a9c3ed}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="news-ticker" aria-label="Latest automotive news headlines">
+    <span class="ticker-label"><span class="ticker-dot"></span> AUTO NEWS</span>
+    <div class="ticker-window"><div class="ticker-track" id="newsTickerTrack">
+      <a href="#latestCarNews">Tesla expands its NCR footprint with a new Noida Experience Center</a>
+      <a href="#latestCarNews">Toyota Fortuner Leader Edition launched; bookings to open on 12 October</a>
+      <a href="#latestCarNews">Renault Duster strong-hybrid bookings open ahead of launch</a>
+      <a href="#latestCarNews">Honda reworks its India strategy with Tata Technologies partnership</a>
+      <a href="#latestCarNews" aria-hidden="true">Tesla expands its NCR footprint with a new Noida Experience Center</a>
+      <a href="#latestCarNews" aria-hidden="true">Toyota Fortuner Leader Edition launched; bookings to open on 12 October</a>
+      <a href="#latestCarNews" aria-hidden="true">Renault Duster strong-hybrid bookings open ahead of launch</a>
+      <a href="#latestCarNews" aria-hidden="true">Honda reworks its India strategy with Tata Technologies partnership</a>
+    </div></div>
+  </div>
+  <nav class="nav" aria-label="Site">
+    <a class="brand" href="#top"><span class="plate">J3</span><span id="brandName">J3vlogs Car Picks</span></a>
+    <div class="nav-actions">
+      <span class="nav-note">Shop on Amazon.in</span>
+      <a class="social-link social-youtube" href="https://www.youtube.com/@j3vlogstechinfo" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to J3vlogs Techinfo on YouTube">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg><span>YouTube</span>
+      </a>
+      <a class="social-link social-instagram" href="https://www.instagram.com/j3vlogs_techinfo/" target="_blank" rel="noopener noreferrer" aria-label="Follow J3vlogs Techinfo on Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="17.7" cy="6.5" r="1.3" fill="currentColor"/></svg><span>Instagram</span>
+      </a>
+    </div>
+  </nav>
+  <p class="disclaimer" style="margin:0 0 12px">As an Amazon Associate I earn from qualifying purchases.</p>
+    <header class="hero top-hero" id="top">
+    <span class="top-hero-kicker">J3VLOGS CAR PICKS</span>
+    <h1><span>TOP 100</span> CAR ACCESSORIES</h1>
+    <p class="lede">Smart upgrades for your drive. Compare, check fit, and shop with confidence.</p>
+    <span class="hero-spark" aria-hidden="true">✦</span>
+  </header>
+</div>
+
+
+
+<div class="wrap discovery-wrap">
+  <section class="filters" id="all" aria-label="Find car accessories">
+    <div class="discover-head">
+      <div><span class="discover-kicker">Find your next upgrade</span><h2>Search accessories</h2></div>
+      <span class="secure-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg>Curated car picks</span>
+    </div>
+    <label for="q" class="sr">Search products</label>
+    <div class="search-area">
+      <div class="searchbox"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg><input id="q" class="search" type="search" placeholder="Search dash cams, seat covers, tyre inflators…" autocomplete="off" aria-controls="searchSuggestions" aria-expanded="false"><span class="search-shortcut">Search</span></div>
+      <div class="suggestions" id="searchSuggestions" role="listbox" aria-label="Search suggestions" hidden></div>
+    </div>
+    <div class="category-heading"><h3>Shop by category</h3><span>Tap an icon to explore</span></div>
+    <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+  </section>
+
+</div>
+
+<section class="pop" id="popularPicks" aria-label="Popular picks carousel">
+  <div class="wrap">
+    <div class="pop-head">
+      <div><h2>Popular picks</h2><p class="pop-hint">Swipe or use arrows to explore</p></div>
+      <div class="pop-controls" aria-label="Popular picks controls">
+        <button type="button" class="pop-arrow" id="popPrev" aria-label="Scroll popular picks left">‹</button>
+        <button type="button" class="pop-arrow" id="popNext" aria-label="Scroll popular picks right">›</button>
+      </div>
+    </div>
+  </div>
+  <div class="marquee" id="marquee" role="region" aria-label="Swipeable popular car accessories" tabindex="0"><div class="track" id="track"></div></div>
+</section>
+
+<section class="feature-wrap" aria-label="Featured car accessories">
+  <div class="wrap">
+    <div class="feature-banner" id="featureBanner" aria-live="polite">
+      <div class="feature-copy">
+        <span class="feature-kicker" id="featureKicker">Featured car pick</span>
+        <h2 id="featureTitle">Upgrade your everyday drive</h2>
+        <p id="featureDescription">Discover useful accessories selected by J3vlogs to make every drive more convenient.</p>
+        <div class="feature-actions">
+          <button type="button" class="feature-btn" id="featureExplore">Explore this pick <span aria-hidden="true">↗</span></button>
+          <a class="feature-btn secondary" id="featureShop" href="https://www.amazon.in/" target="_blank" rel="sponsored nofollow noopener">Shop on Amazon <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="feature-note" id="featureNote">Curated recommendations · not a live sales ranking</p>
+        <div class="feature-dots" id="featureDots" aria-label="Featured products"></div>
+      </div>
+      <div class="feature-visual"><div class="feature-art" id="featureProduct" aria-hidden="true"></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap discovery-car-wrap">
+  <section class="carpick" aria-labelledby="carH">
+    <h2 id="carH">Shop for your car</h2>
+    <p class="sub">Pick your brand and model and the products made for your car come first.</p>
+    <div class="carrow">
+      <div class="cfield"><label for="carBrand">Brand</label><select id="carBrand"></select></div>
+      <div class="cfield"><label for="carModel">Model</label><select id="carModel" disabled></select></div>
+      <button type="button" class="btn ghost" id="carClear" hidden>Clear</button>
+    </div>
+    <div class="carcustom" id="carCustom" hidden>
+      <div class="cfield" id="cfBrand" hidden><label for="carBrandText">Brand</label><input id="carBrandText" type="text" autocomplete="off" placeholder="e.g. Maruti Suzuki"></div>
+      <div class="cfield"><label for="carModelText">Model</label><input id="carModelText" type="text" autocomplete="off" placeholder="e.g. Swift VXi"></div>
+      <label class="evcheck"><input type="checkbox" id="carEv"> This is an electric car</label>
+      <button type="button" class="btn buy" id="carApply">Use this car</button>
+    </div>
+    <p class="car-status" id="carStatus" role="status"></p>
+    <div class="car-preview" id="carPreview" hidden aria-live="polite">
+      <div class="car-preview-photo"><img id="carPreviewImage" alt="" hidden><div class="car-preview-fallback" id="carPreviewFallback"><span aria-hidden="true">🚘</span><strong>Select your car to see its picture</strong><small>Only public-domain or CC0 images are shown; otherwise the photo area stays hidden.</small></div></div>
+      <div class="car-preview-caption"><span class="car-preview-tag">YOUR SELECTED CAR</span><strong id="carPreviewName"></strong><span id="carPreviewStatus">Choose a brand and model to load a matching image.</span><a id="carPreviewSource" href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer" hidden>View image source</a></div>
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+
+
+  <section class="shelves" id="shelves" aria-labelledby="shelfH" hidden>
+    <h2 id="shelfH">Best picks right now</h2>
+    <div class="tabs" id="tabs" role="group" aria-label="Choose a list"></div>
+    <p class="shelf-note" id="shelfNote"></p>
+    <ul class="shelf" id="shelf"></ul>
+  </section>
+
+
+
+
+
+  <main>
+    <p class="count" id="count" aria-live="polite"></p>
+    <h2 class="grid-h" id="fitH" hidden></h2>
+    <p class="grid-note" id="fitNote" hidden>Each button opens Amazon.in results for your car. Fit depends on the year and variant, so check it on the product page before you order.</p>
+    <ol class="grid fit" id="gridFit" hidden></ol>
+    <h2 class="grid-h" id="restH" hidden>Works with any car</h2>
+    <ol class="grid" id="grid"></ol>
+    <div class="empty" id="empty" hidden>
+      <p><strong>No products match your search.</strong></p>
+      <button type="button" class="btn ghost" id="reset">Show all 100 products</button>
+    </div>
+  </main>
+
+
+  <section class="news-section" id="latestCarNews" aria-labelledby="newsHeading">
+    <div class="news-head">
+      <div><span class="news-kicker">INDIA AUTO UPDATE · 11 OCT 2026</span><h2 id="newsHeading">Latest car news in India</h2><p>Headlines only. Open the source to read the full report.</p></div>
+      <span class="news-live"><i></i> Latest headlines</span>
+    </div>
+    <ul class="news-list">
+      <li><a href="https://economictimes.indiatimes.com/news/news-by-industry/auto" target="_blank" rel="noopener noreferrer">Tesla expands its NCR footprint with a new Noida Experience Center</a><span class="news-source">Source: The Economic Times · 9 Oct 2026</span></li>
+      <li><a href="https://www.v3cars.com/news" target="_blank" rel="noopener noreferrer">Toyota Fortuner Leader Edition launched; bookings to open on 12 October</a><span class="news-source">Source: V3Cars · 9 Oct 2026</span></li>
+      <li><a href="https://www.v3cars.com/latest-car-news" target="_blank" rel="noopener noreferrer">Renault Duster strong-hybrid bookings open ahead of launch</a><span class="news-source">Source: V3Cars · 9 Oct 2026</span></li>
+      <li><a href="https://www.reuters.com/world/asia-pacific/cost-pressures-deadlock-force-honda-rework-india-strategy-sources-say-2026-10-05/" target="_blank" rel="noopener noreferrer">Honda reworks its India strategy with Tata Technologies partnership</a><span class="news-source">Source: Reuters · 5 Oct 2026</span></li>
+    </ul>
+    <p class="news-disclaimer">Headlines and dates are shown for information and may change. All reporting belongs to the respective publishers; J3vlogs Car Picks does not reproduce full articles.</p>
+  </section>
+
+  <section class="bottom-info" aria-label="About J3vlogs Car Picks">
+<section class="creator-card" aria-label="Follow J3vlogs Techinfo">
+    <div>
+      <span class="creator-kicker">From the J3vlogs community</span>
+      <h2>Shop smarter. Stay in the loop.</h2>
+      <p>Follow J3vlogs Techinfo for car accessory finds, automotive tips, EV updates, hands-on reviews and new videos. Find something useful here? Check the buying tips, compare options, then visit Amazon for current prices and reviews.</p>
+      <div class="shopping-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg><span>Independent buying tips · Amazon prices may change</span></div>
+    </div>
+    <div class="creator-actions">
+      <a class="social-link social-youtube" href="https://www.youtube.com/@j3vlogstechinfo" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg>Subscribe on YouTube
+      </a>
+      <a class="social-link social-instagram" href="https://www.instagram.com/j3vlogs_techinfo/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="17.7" cy="6.5" r="1.3" fill="currentColor"/></svg>Follow on Instagram
+      </a>
+    </div>
+  </section>
+  <section aria-labelledby="chooseH">
+    <div class="sec-head"><h2 id="chooseH">Before you buy anything</h2></div>
+    <ul class="advice">
+      <li><strong>Check that it fits your car</strong><span>Seat covers, mats, mud flaps and wipers depend on your exact model and year. Confirm the fit on the Amazon page.</span></li>
+      <li><strong>Read the recent low-star reviews</strong><span>Sort by most recent and read the 1 and 2 star ones. They show the real problems, like heat damage or poor stitching.</span></li>
+    </ul>
+  </section>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-legal">
+      <section aria-labelledby="disclaimerHeading"><h3 id="disclaimerHeading">Disclaimer</h3>
+        <p>J3vlogs Car Picks is an independent discovery and affiliate website. As an Amazon Associate, we earn from qualifying purchases. This does not change the price you pay. Product availability, prices, specifications, ratings and offers can change; always verify current details on Amazon.in before purchasing.</p>
+        <p>Product suggestions, buying tips, car-fit guidance, images and news headlines are provided for general information only. They are not a guarantee of product quality, compatibility, safety or performance. Vehicle compatibility can vary by model year and variant. Follow your vehicle owner's manual and consult a qualified professional where needed.</p>
+      </section>
+      <section aria-labelledby="termsHeading"><h3 id="termsHeading">Terms &amp; conditions</h3>
+        <p>By using this website, you agree to use the information for personal, lawful purposes. Check product details and the seller's terms before ordering. Purchases, payments, shipping, returns, warranties and customer service are handled by the retailer and are subject to its terms and policies.</p>
+        <p>J3vlogs Car Picks does not sell or ship products directly and is not responsible for third-party listings, retailer decisions, external website content, interruptions, or losses arising from reliance on general information here. External links open third-party websites governed by their own terms and privacy policies. News headlines link to their original publishers; copyright remains with each publisher. We may update this page and these terms without notice.</p>
+      </section>
+      <section aria-labelledby="privacyHeading"><h3 id="privacyHeading">Privacy &amp; external links</h3>
+        <p>This static page does not ask for account credentials or payment details. External services, including Amazon and linked news publishers, may use their own cookies and data practices. Review their privacy policies before using those services.</p>
+      </section>
+    </div>
+    <div class="social-footer" aria-label="J3vlogs social profiles">
+      <a class="social-link social-youtube" href="https://www.youtube.com/@j3vlogstechinfo" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg>J3vlogs on YouTube</a>
+      <a class="social-link social-instagram" href="https://www.instagram.com/j3vlogs_techinfo/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="17.7" cy="6.5" r="1.3" fill="currentColor"/></svg>@j3vlogs_techinfo</a>
+    </div>
+    <p id="priceNote" hidden></p>
+    <p id="rankNote" hidden></p>
+    <p id="updated"></p>
+  </div>
+</footer>
+
+<nav class="bottom-dock" aria-label="Main navigation">
+  <a class="dock-btn active" href="#top" data-dock="home" aria-label="Home">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7"/><path d="M5.5 9v11h13V9M9 20v-7h6v7"/></svg><span>Home</span>
+  </a>
+  <button class="dock-btn" type="button" data-dock="categories" id="openCategories" aria-label="All categories">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Categories</span>
+  </button>
+  <button class="dock-btn" type="button" data-dock="popular" id="openPopular" aria-label="Popular picks">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9z"/></svg><span>Popular</span>
+  </button>
+  <button class="dock-btn ask" type="button" id="openAsk" data-dock="ask" aria-label="Ask Me about cars">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a8 8 0 0 0-8 8v2a3 3 0 0 0 3 3h1v-6H7a5 5 0 0 1 10 0h-1v6h1a3 3 0 0 0 3-3v-2a8 8 0 0 0-8-8Z"/><path d="M16 19c-1 1-2.3 1.5-4 1.5h-2"/></svg><span>Ask Me</span>
+  </button>
+</nav>
+
+<dialog class="browse-page" id="browseDialog" aria-labelledby="browseHeading">
+  <div class="browse-layout">
+    <header class="browse-top"><button class="browse-back" type="button" id="browseBack" aria-label="Back to home">‹</button><div class="browse-title"><h2 id="browseHeading">Browse</h2><p id="browseSubtitle">Explore car accessories</p></div></header>
+    <div class="browse-content" id="browseContent"></div>
+  </div>
+</dialog>
+
+<dialog class="ask-page" id="askDialog" aria-labelledby="askHeading">
+  <div class="ask-layout">
+    <header class="ask-top"><div class="ask-avatar" aria-hidden="true">J3</div><div class="ask-title"><strong id="askHeading">Ask Me · Car Assistant</strong><span>Car tips, EV questions and accessory suggestions</span></div><button type="button" class="ask-close" id="closeAsk">Close</button></header>
+    <div class="ask-suggestions" aria-label="Suggested questions">
+      <button type="button" class="ask-suggestion">Best accessories for my car</button>
+      <button type="button" class="ask-suggestion">EV range and charging tips</button>
+      <button type="button" class="ask-suggestion">Dash cam recommendation</button>
+      <button type="button" class="ask-suggestion">Tyre inflator suggestions</button>
+    </div>
+    <div class="ask-messages" id="askMessages" aria-live="polite"><div class="ask-msg bot">Hi! I’m J3vlogs Car Assistant. Ask about car accessories, EV basics, maintenance or product suggestions. I can recommend matching items from this app and link to Amazon.in.</div></div>
+    <p class="ask-note">Search previews use public Google News and Reddit RSS feeds when available; full-search links are always provided. Product recommendations come only from this app and open Amazon.in with J3vlogs affiliate tracking. For safety-critical issues, follow your owner’s manual and consult a qualified professional.</p>
+    <form class="ask-compose" id="askForm"><label class="sr" for="askInput">Ask a car-related question</label><textarea id="askInput" rows="1" placeholder="Ask anything about cars…" required></textarea><button class="ask-send" type="submit">Send ↗</button></form>
+  </div>
+</dialog>
+
+<dialog id="sheet" aria-labelledby="sTitle">
+  <div class="sheet">
+    <div class="sheet-head">
+      <span class="plate" id="sPlate"></span>
+      <span class="pill" id="sCat"></span>
+      <button type="button" class="close" id="sClose">Close</button>
+    </div>
+    <h2 id="sTitle"></h2>
+    <h3>Why it is worth buying</h3>
+    <p id="sWhy"></p>
+    <h3>Check before you buy</h3>
+    <ul class="mini" id="sTips"></ul>
+    <a class="btn buy" id="sBuy" target="_blank" rel="sponsored nofollow noopener">Buy on Amazon.in</a>
+    <p class="note">You will see the current price and reviews on Amazon.in. As an Amazon Associate I earn from qualifying purchases.</p>
+  </div>
+</dialog>
+
+<script>
+/* ---------- Settings ---------- */
+const CONFIG = {
+  brandName: 'J3vlogs Car Picks',
+  tag: 'J3vlogs03-21',          // Amazon Associates store ID
+  market: 'www.amazon.in',
+  dataUrl: 'products.json',     // written daily by the updater once Creators API is connected
+  localImages: true,            // use photos from the images folder when a matching file exists
+  imageDir: 'images',           // product photos: slug.jpg, category photos: category-slug.jpg (see images/FILENAMES.txt)
+  carouselCount: 20,            // how many top products run in the carousel
+  listDate: '2026-09-30'
+};
+
+/* ---------- Categories: name, tile colour, icon colour, icon ---------- */
+const ic = inner => '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + inner + '</svg>';
+const CATS = {
+  E: ['Electronics',        '#DCEBFF', '#1D4E9E', ic('<rect x="6" y="14" width="36" height="24" rx="5"/><circle cx="24" cy="26" r="7"/><path d="M17 14l3-5h8l3 5"/>')],
+  C: ['Cleaning and care',  '#D9F3EA', '#0B6B4B', ic('<path d="M24 6l4 12 12 4-12 4-4 12-4-12-12-4 12-4z"/><path d="M38 6v6M35 9h6"/>')],
+  I: ['Interior',           '#FDE9D3', '#9A5410', ic('<path d="M14 6h8a3 3 0 0 1 3 3l2 18h9a3 3 0 0 1 3 3v4H12V9a3 3 0 0 1 2-3z"/><path d="M16 38v4M34 38v4"/>')],
+  S: ['Safety',             '#FFE0E0', '#A32525', ic('<path d="M24 5l16 6v11c0 10-7 17-16 21C15 39 8 32 8 22V11z"/><path d="M17 24l5 5 9-10"/>')],
+  X: ['Exterior and lights','#FFF1BF', '#7A5A00', ic('<path d="M8 14h18a12 12 0 0 1 0 20H8z"/><path d="M34 18h8M34 24h8M34 30h8"/>')],
+  K: ['Comfort',            '#DDF3F7', '#0E6B7A', ic('<path d="M6 18h22a5 5 0 1 0-5-5"/><path d="M6 26h32a5 5 0 1 1-5 5"/><path d="M6 34h14"/>')],
+  T: ['Tools and emergency','#E6E3F7', '#4B3FA0', ic('<circle cx="24" cy="24" r="7"/><path d="M24 5v6M24 37v6M5 24h6M37 24h6M11 11l4 4M33 33l4 4M37 11l-4 4M15 33l-4 4"/>')],
+  A: ['Car audio',          '#F3DFF5', '#8A2E96', ic('<path d="M8 19h8l10-8v26l-10-8H8z"/><path d="M32 18a9 9 0 0 1 0 12M37 13a16 16 0 0 1 0 22"/>')],
+  W: ['Tyres and wheels',   '#E3E7EC', '#2F3B4A', ic('<circle cx="24" cy="24" r="17"/><circle cx="24" cy="24" r="5"/><path d="M24 7v12M24 29v12M7 24h12M29 24h12"/>')],
+  F: ['Oils and fluids',    '#F5E6D6', '#6B4423', ic('<path d="M24 6c8 10 12 16 12 22a12 12 0 0 1-24 0c0-6 4-12 12-22z"/><path d="M18 30a6 6 0 0 0 6 6"/>')]
+};
+const CAT_META = Object.fromEntries(Object.values(CATS).map(([n, bg, fg, svg]) => [n, {bg, fg, svg}]));
+const CAT_DEFAULT = {bg:'#EAEEF3', fg:'#2F3B4A', svg: CATS.W[3]};
+
+/* Product-specific mini illustrations: original inline SVG, no icon-font or network dependency. */
+function productIcon(name, fallback){
+  const common = 'viewBox="0 0 96 96" role="img" aria-hidden="true"';
+  const art = {
+    'Dash camera, front and rear': '<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#34465f"/><stop offset="1" stop-color="#101827"/></linearGradient></defs><rect x="19" y="22" width="58" height="38" rx="10" fill="url(#g)" stroke="#6b7b91" stroke-width="2"/><circle cx="48" cy="41" r="12" fill="#101827" stroke="#8dd8ff" stroke-width="4"/><circle cx="48" cy="41" r="5" fill="#5bc0eb"/><path d="M35 60v8h26v-8M44 68v8h8v-8" fill="#34465f"/><path d="M28 29h8" stroke="#a8dfff" stroke-width="3" stroke-linecap="round"/>',
+    'Car seat covers': '<path d="M34 15h22q7 0 8 8l4 18q1 5 7 8l4 7v19q0 5-5 5H22q-5 0-5-5V56l7-7q6-3 7-9l3-17q1-8 8-8Z" fill="#334155" stroke="#172033" stroke-width="2.5"/><path d="M37 22h22l4 22q1 7 9 11v17H24V55q8-4 9-11Z" fill="#64748b"/><path d="M38 27h20M35 47h27M31 56h34M31 64h34" stroke="#dce5ef" stroke-width="2" opacity=".85"/><path d="M47 22v50" stroke="#9ba9ba" stroke-width="1.5"/>',
+    'Car vacuum cleaner': '<defs><linearGradient id="v" x2="1" y2="1"><stop stop-color="#22c1a3"/><stop offset="1" stop-color="#087f72"/></linearGradient></defs><path d="M25 27q0-8 9-8h21q8 0 8 8v31q0 7-8 7H34q-9 0-9-8Z" fill="url(#v)" stroke="#075d55" stroke-width="2.5"/><path d="M31 22l5-8h18l7 8" fill="#d9f7f0" stroke="#075d55" stroke-width="2.5"/><path d="M62 36h11q8 0 8 8v7" fill="none" stroke="#263548" stroke-width="7" stroke-linecap="round"/><path d="M79 51l7 11" stroke="#263548" stroke-width="5" stroke-linecap="round"/><rect x="34" y="33" width="20" height="13" rx="4" fill="#d7fff4"/><path d="M36 53h16" stroke="#075d55" stroke-width="3" stroke-linecap="round"/>',
+    'Magnetic phone holder': '<path d="M46 61V48q0-5 5-8l10-6" fill="none" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M30 65h34l7 8H23Z" fill="#334155"/><rect x="50" y="18" width="29" height="39" rx="7" transform="rotate(12 50 18)" fill="#172033" stroke="#64748b" stroke-width="2.5"/><rect x="55" y="23" width="19" height="27" rx="3" transform="rotate(12 55 23)" fill="#a5e7ff"/><circle cx="45" cy="45" r="10" fill="#e5eaf1" stroke="#334155" stroke-width="3"/><circle cx="45" cy="45" r="4" fill="#94a3b8"/>',
+    'Portable tyre inflator': '<rect x="18" y="30" width="60" height="39" rx="9" fill="#263548" stroke="#111827" stroke-width="2.5"/><rect x="28" y="38" width="25" height="15" rx="3" fill="#b8f3e0"/><text x="40.5" y="49" text-anchor="middle" font-size="10" font-weight="800" fill="#075d55">32.5</text><circle cx="65" cy="46" r="5" fill="#ffd43b"/><path d="M25 69v5h47v-5M18 43H9v17h9" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round"/><path d="M66 30v-8h12" fill="none" stroke="#263548" stroke-width="4" stroke-linecap="round"/>',
+    '7D car floor mats': '<path d="M24 15h17l7 17 7-17h17l7 58H17Z" fill="#303b4b" stroke="#111827" stroke-width="2.5"/><path d="M26 23h12l10 21 10-21h12l4 42H22Z" fill="#465568"/><path d="M29 28l19 30 19-30M25 40l23 26 23-26M23 53l25 18 25-18" fill="none" stroke="#8a9aad" stroke-width="2"/><path d="M34 19h28" stroke="#c7d2df" stroke-width="2"/>',
+    'Fast USB car charger': '<path d="M34 16h28l8 12v40q0 7-7 7H33q-7 0-7-7V28Z" fill="#293548" stroke="#111827" stroke-width="2.5"/><rect x="35" y="27" width="26" height="10" rx="3" fill="#0f172a"/><rect x="38" y="30" width="8" height="4" rx="1" fill="#8be9ff"/><rect x="50" y="30" width="8" height="4" rx="1" fill="#8be9ff"/><path d="M40 49h16M48 41v16" stroke="#ffd43b" stroke-width="3" stroke-linecap="round"/><path d="M29 70h38" stroke="#8996a8" stroke-width="3"/>',
+    'Reverse parking camera': '<rect x="17" y="29" width="62" height="39" rx="8" fill="#263548" stroke="#111827" stroke-width="2.5"/><circle cx="48" cy="48" r="15" fill="#111827" stroke="#91a3b8" stroke-width="4"/><circle cx="48" cy="48" r="8" fill="#57c8f2"/><circle cx="45" cy="45" r="3" fill="#e5f8ff"/><path d="M25 29l7-9h32l7 9" fill="#64748b" stroke="#263548" stroke-width="2"/>',
+    'Car air freshener': '<path d="M38 17h20l-2 11H40Z" fill="#64748b"/><rect x="31" y="27" width="34" height="47" rx="9" fill="#fff" stroke="#cbd5e1" stroke-width="2.5"/><rect x="35" y="38" width="26" height="25" rx="5" fill="#c6f6e7"/><path d="M48 58c-12-9-4-18 0-21 4 6 12 14 0 21Z" fill="#0b9f73"/><path d="M48 57v-12" stroke="#fff" stroke-width="2"/>',
+    'Car body cover': '<path d="M13 56l8-18q3-7 12-7h31q9 0 13 8l7 17v12H13Z" fill="#8ca4c2" stroke="#34465f" stroke-width="2.5"/><path d="M25 43q2-5 9-5h28q7 0 10 6l4 10H21Z" fill="#c8d7e8"/><path d="M18 60h61M25 70l-4 7M70 70l4 7" stroke="#34465f" stroke-width="3" stroke-linecap="round"/><path d="M36 43h24" stroke="#fff" stroke-width="2"/>',
+    'Wiper blades': '<path d="M19 65L65 21q6-5 11 0t0 11L30 78q-6 4-11-1t0-12Z" fill="#334155" stroke="#111827" stroke-width="2.5"/><path d="M27 68l42-42" stroke="#b9c8d8" stroke-width="3"/><path d="M17 74l9 7 8-8" fill="none" stroke="#64748b" stroke-width="3"/>',
+    'Car first aid kit': '<rect x="17" y="27" width="62" height="46" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2.5"/><path d="M34 27v-7h28v7" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2.5"/><rect x="40" y="37" width="16" height="27" rx="2" fill="#ef4444"/><rect x="34" y="43" width="28" height="15" rx="2" fill="#ef4444"/><rect x="44" y="40" width="8" height="21" fill="#fff"/><rect x="37" y="47" width="22" height="7" fill="#fff"/>',
+    'Car speakers, 6.5 inch': '<circle cx="48" cy="48" r="32" fill="#263548" stroke="#101827" stroke-width="3"/><circle cx="48" cy="48" r="24" fill="#475569" stroke="#8b9bb0" stroke-width="2"/><circle cx="48" cy="48" r="16" fill="#172033" stroke="#b4c0ce" stroke-width="2"/><circle cx="48" cy="48" r="7" fill="#90a5bc"/><circle cx="45" cy="45" r="2.5" fill="#e2e8f0"/>',
+    'Windshield sunshade': '<path d="M18 71V36q0-8 8-8h44q8 0 8 8v35Z" fill="#b8d9f6" stroke="#42607f" stroke-width="2.5"/><path d="M25 64V38q0-3 4-3h38q4 0 4 3v26Z" fill="#e4f2ff"/><path d="M22 32l52 37M34 28l42 30M18 48l32 23M47 28l31 25" stroke="#7fa8d1" stroke-width="3"/><path d="M27 76h42" stroke="#42607f" stroke-width="3" stroke-linecap="round"/>',
+    'Car jump starter': '<rect x="22" y="19" width="52" height="59" rx="9" fill="#d83b43" stroke="#8f1d2c" stroke-width="2.5"/><rect x="31" y="28" width="34" height="16" rx="3" fill="#111827"/><path d="M47 49l-8 12h8l-2 9 12-15h-8l3-6Z" fill="#ffd43b"/><circle cx="35" cy="36" r="2" fill="#5eead4"/><path d="M27 19v-5h11M59 19v-5h11" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>',
+    'Child car seat': '<path d="M31 14h22q10 0 12 12l4 19q1 6 8 10l4 7v9q0 5-5 5H22q-5 0-5-5V59l7-7q6-4 7-11Z" fill="#e56b45" stroke="#9a3e29" stroke-width="2.5"/><path d="M36 23h14l5 24q2 8 11 12v9H27v-9q8-5 9-13Z" fill="#f6a17e"/><path d="M31 42l34 18M63 42L31 60" stroke="#334155" stroke-width="5" stroke-linecap="round"/><circle cx="48" cy="50" r="4" fill="#ffd43b"/>',
+    'Portable tyre inflator': '<rect x="18" y="30" width="60" height="39" rx="9" fill="#263548" stroke="#111827" stroke-width="2.5"/><rect x="28" y="38" width="25" height="15" rx="3" fill="#b8f3e0"/><circle cx="65" cy="46" r="5" fill="#ffd43b"/><path d="M25 69v5h47v-5M18 43H9v17h9" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>'
+  };
+  const svg = art[name];
+  return svg ? '<svg '+common+' xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round">'+svg+'</svg>' : fallback.svg;
+}
+
+/* ---------- Built-in list in rank order:
+   [category, name, Amazon search words, why buy it, tips separated by |] ---------- */
+const BUILTIN = [
+  ['E','Dash camera, front and rear','dash cam front and rear',"Proof after an accident or a dispute, and a witness if someone hits your parked car.","Full HD (1080p) at minimum, 2K if budget allows|Loop recording and a G-sensor that locks clips after impact|A supercapacitor lasts longer than a battery in hot summers"],
+  ['I','Car seat covers','car seat covers',"Protects the original seats from wear and stains, and can make an old cabin look new.","Choose covers made for your exact model|Leatherette lasts longer, fabric feels cooler in summer|Front covers must not block side airbags"],
+  ['C','Car vacuum cleaner','car vacuum cleaner',"Clears dust, sand and crumbs from mats and seat gaps in minutes at home.","Check the cable reaches the boot, or pick a cordless one|Look for 5000 Pa or more of suction|A washable filter saves money on refills"],
+  ['E','Magnetic phone holder','car magnetic phone holder',"Keeps maps in view so you never hold the phone while driving.","Strong magnets and a metal plate that sticks to the phone or case|Dashboard mounts hold better than vent clips|Do not block airbags or your view of the road"],
+  ['W','Portable tyre inflator','portable tyre inflator car',"Top up a slow leak on the spot instead of waiting for help.","Pick a digital gauge with auto shut-off|Cable and hose should reach all four tyres|Check the time it takes to fill a tyre from flat"],
+  ['I','7D car floor mats','7D car floor mats',"Full-coverage mats catch mud and rain, so the carpet stays clean.","Buy the set made for your exact model|Anti-slip backing that clips to the floor is safer|Leatherette wipes clean easily"],
+  ['C','Microfiber cloth pack','microfiber cloth car',"Wipes dust off paint and glass without leaving scratches like old towels do.","350 GSM or higher is gentle on paint|Keep separate cloths for paint, glass and interior|Wash them without fabric softener"],
+  ['K','Car air freshener','car air freshener',"Clears the stale smell of a closed cabin in summer heat.","Gels and vent clips last longer than sprays|Pick a light scent if strong smells give you a headache|Keep liquids away from the dashboard plastic"],
+  ['E','Fast USB car charger','car charger fast charging dual usb',"Charges your phone at full speed while it runs navigation.","Look for 30 W or more with a USB-C port|Check your phone supports the charging standard|Choose a brand with overheat and overcurrent protection"],
+  ['X','Car body cover','car body cover',"Shields paint from sun, dust and bird droppings when parked outside.","Pick the size for your car's model and length|Water-resistant fabric with UV protection|A soft inner lining will not scratch the paint"],
+  ['E','Reverse parking camera','car reverse parking camera',"Removes blind spots when you reverse into tight parking.","Wide-angle lens with night vision|Check how it connects to your stereo, or buy a mirror monitor|Look for an IP67 waterproof rating"],
+  ['I','Steering wheel cover','steering wheel cover',"Better grip, and it keeps your hands off a hot wheel in summer.","Measure your wheel first, most fit 14 to 15 inches|Stitched covers slip less than stretch-on ones|Avoid thin, slippery materials"],
+  ['C','Car wash shampoo','car wash shampoo',"Lifts dirt without stripping wax or dulling the paint.","Choose a pH-neutral formula|Works best with a foam gun or two buckets|Never use dish soap on paint"],
+  ['K','Boot organiser','car boot organiser',"Stops shopping, tools and bags from rolling around the boot.","Measure your boot width first|A non-slip base keeps it in place|Foldable ones store away when not needed"],
+  ['I','Neck rest pillow','car neck rest pillow',"Reduces neck strain on long drives and highway trips.","Memory foam keeps its shape|An adjustable strap holds it on the headrest|A breathable cover stays comfortable in heat"],
+  ['E','Bluetooth FM transmitter','car bluetooth fm transmitter',"Brings music and hands-free calls to an older stereo without rewiring.","Look for Bluetooth 5.0 or newer|Choose an FM frequency with no local station|Check that it has a clear microphone for calls"],
+  ['W','Tyre pressure monitoring system','tpms tyre pressure monitor car',"Warns you about a low or leaking tyre before it becomes dangerous.","External sensors are the easiest to fit|A solar-charged display saves wiring|Temperature alerts are a useful extra"],
+  ['X','Wiper blades','car wiper blades',"Clear vision in the monsoon. Worn blades smear and squeak.","Buy the right length for the driver and passenger sides|Silicone blades last longer than rubber|Replace them every 6 to 12 months"],
+  ['T','Car jump starter','car jump starter portable',"Starts a dead battery without waiting for another car.","Match capacity to your engine, diesel needs more|Check the peak amps rating|Recharge it every few months so it is ready"],
+  ['C','Car pressure washer','car pressure washer',"A faster, deeper wash at home than a bucket and hose.","Check whether it runs on 12 V or mains power|An adjustable nozzle helps with different jobs|Make sure the hose reaches your parking spot"],
+  ['S','Car first aid kit','car first aid kit',"Basic help for cuts, burns and sprains until a doctor is reachable.","Check the expiry dates on the contents|Look for bandages, antiseptic, gloves and dressings|Keep it somewhere easy to reach"],
+  ['I','Windshield sunshade','car windshield sunshade',"Keeps the cabin and steering wheel much cooler when parked.","Measure your windshield before buying|A reflective outer surface works best|Folding ones store easily in a door pocket"],
+  ['K','Car air purifier','car air purifier',"Helps with dust and smell in city traffic.","Look for a HEPA filter or an ionizer|Check whether it runs on USB or the 12 V socket|Expect a mild improvement in heavy smog, not a miracle"],
+  ['X','LED headlight bulbs','car led headlight bulb',"Brighter, whiter light for night driving.","Match the bulb type to your car, such as H4 or H7|Avoid very blue bulbs that dazzle other drivers|Choose a known brand with proper cooling"],
+  ['T','Tyre puncture repair kit','tyre puncture repair kit',"Fixes a tubeless tyre puncture on the road.","Tubeless plugs plus a reamer and insertion tool|Try it once at home so you know the steps|Carry it with an inflator"],
+  ['I','Lumbar support cushion','car lumbar support cushion',"Eases lower-back ache on long drives.","Memory foam with a strap stays in place|Adjust the height to the curve of your back|A mesh cover keeps it cool"],
+  ['C','Car polish and wax','car polish wax',"Restores shine and adds a protective layer against sun and rain.","Wax gives shine, sealant or ceramic lasts longer|Apply in shade on a cool panel|Use a foam pad, not a dry cloth"],
+  ['E','OBD2 scanner','obd2 scanner bluetooth',"Reads engine fault codes so you know the problem before you visit a garage.","Check that your car supports OBD2, most newer cars do|Choose one with a well-reviewed app|Very cheap clones can be unreliable"],
+  ['A','Car speakers, 6.5 inch','car speakers 6.5 inch',"A clear sound upgrade over the factory speakers.","Check the size your doors fit|RMS power matters more than peak power|Coaxial speakers are the easiest to install"],
+  ['K','Cup holder expander','car cup holder expander',"Holds big bottles and cups in cars with small holders.","Choose an adjustable base|Check that it fits your holder shape|Sturdy plastic will not tilt"],
+  ['S','Fire extinguisher for car','car fire extinguisher',"Handles a small fire long enough to get everyone out safely.","An ABC dry powder type covers most fires|A 1 kg size is common for cars|Check the pressure gauge is in the green"],
+  ['C','Foam wash gun','car foam wash gun',"Loosens dirt with foam before you touch the paint.","Check it fits your hose or pressure washer|Adjustable foam-to-water ratio|Use with a pH-neutral shampoo"],
+  ['X','Door edge guards','car door edge guard',"Stops door dings on walls and pillars in tight parking.","Clear or colour-matched|Measure the total length you need|Good adhesive tape holds better"],
+  ['W','Tyre pressure gauge','tyre pressure gauge digital',"An accurate reading beats guessing by eye.","A digital gauge with backlight is easy to read|Use the pressure printed on your door sticker|Check pressure when the tyres are cold"],
+  ['F','Engine oil, 5W-30','engine oil 5W-30 synthetic',"The right oil protects your engine and keeps mileage steady.","Follow the grade in your owner's manual|Buy from the brand store to avoid fakes|Synthetic lasts longer than mineral oil"],
+  ['I','Back seat organiser','car back seat organiser',"Keeps bottles, tissues and kids' things within reach.","Strong straps that do not sag|A tablet holder is handy on trips|Wipe-clean material"],
+  ['S','Child car seat','child car seat',"Keeps a child properly restrained. A seat belt alone is not enough.","Match it to your child's age and weight|Check whether your car has ISOFIX|Look for a safety certification such as ECE R44 or R129"],
+  ['T','Tow rope','car tow rope',"Get help if you are stuck or broken down.","Check the load rating is above your car's weight|Strong hooks or loops at both ends|Keep it in the boot"],
+  ['E','Parking sensor kit','car parking sensor kit',"Beeps as you near an obstacle when reversing.","Four sensors is the common setup|Colour-matched sensors look tidy|Check the alert type, buzzer or display"],
+  ['C','Dashboard polish','car dashboard polish',"Restores dull plastic without a greasy shine.","Pick a matte finish with UV protection|Apply with a microfiber cloth|Keep it off the steering wheel and pedals"],
+  ['X','Mud flaps','car mud flaps',"Keeps mud and stones off the paint and doors.","Buy the set made for your model|Flexible material will not crack|Check whether it uses screws or adhesive"],
+  ['K','Car perfume gel','car perfume gel',"Long-lasting fragrance with no spray.","Small dashboard-friendly bottles work well|Lighter scents suit closed cabins|Check the seal so it does not leak"],
+  ['T','Jumper cables','car jumper cables',"Revive a dead battery using another car.","Thick copper cables carry current better|Choose 2.5 m or longer|Learn the correct connection order first"],
+  ['I','Side window sun shades','car side window sun shade',"Keeps harsh sun off kids and passengers.","Static-cling shades are easy to fit|Mesh lets you still see out|Check they fit your window size"],
+  ['A','Car subwoofer','car subwoofer',"Adds deep bass that small speakers cannot produce.","Powered subwoofers are the easiest to install|Check the space you have in the boot|Get proper wiring and a fuse"],
+  ['X','Fog lamps','car fog lamp',"Improves visibility in fog and heavy rain.","Yellow or white light cuts through fog well|Choose lamps made for your model|Get them fitted by a professional"],
+  ['C','Scratch remover','car scratch remover',"Softens light scratches and swirl marks.","It only works on surface scratches, not deep ones|Test on a small hidden area first|Use a soft applicator"],
+  ['S','Blind spot mirror','car blind spot mirror',"Shows vehicles beside you when changing lanes.","Wide-angle convex mirrors work best|Stick it on the outer corner of your side mirror|Clean the surface before sticking"],
+  ['W','Tyre shine gel','tyre shine gel',"Gives tyres a deep black finish.","Water-based gels sling less onto paint|Apply with a foam sponge|Wipe off the excess"],
+  ['E','Android car stereo','android car stereo touchscreen',"Maps, music and a reverse camera on one screen.","Check the fascia size for your car|Go for 2 GB RAM or more for smooth apps|Look for a reverse camera input and Bluetooth"],
+  ['K','Car trash bin','car trash bin',"Keeps the cabin tidy on long trips.","Choose a leakproof liner|Hooks on the seat or headrest are handy|It should be easy to empty"],
+  ['T','Car tool kit set','car tool kit set',"Basic tools for small roadside fixes.","Spanners, screwdrivers and pliers cover most jobs|A carry case keeps it organised|Rust-resistant steel lasts longer"],
+  ['F','Engine coolant','car engine coolant',"Helps prevent overheating, especially in summer.","Pre-mixed coolant is the simplest to use|Match the type in your manual|Never open a hot radiator cap"],
+  ['C','Leather seat cleaner','car leather seat cleaner',"Cleans leather seats without drying them out.","Choose a pH-balanced cleaner|Test on a hidden spot first|Follow with a leather conditioner"],
+  ['S','Seat belt cutter and window breaker','seat belt cutter window breaker',"An escape tool if the doors jam after an accident.","Keep it within the driver's reach, not in the boot|Look for a sharp cutter and a spring punch|Mount it near the driver's seat"],
+  ['X','Bumper protector','car bumper protector',"Absorbs low-speed bumps in tight parking.","Foam or rubber with adhesive backing|Measure the bumper edge before buying|Some cars need model-specific shapes"],
+  ['W','Alloy wheel cleaner','alloy wheel cleaner',"Removes the brake dust that makes wheels look dull.","Check it is safe for your wheel finish|Rinse off after a couple of minutes|Wear gloves"],
+  ['K','Dashboard cooling fan','car dashboard cooling fan',"Moves air around while the AC catches up on a hot day.","Choose solar or USB powered|Look for low noise|A stable, non-slip base matters"],
+  ['A','Car amplifier','car amplifier',"Powers speakers and subwoofers properly.","Match the number of channels to your speakers|Compare RMS power, not peak power|Use a fuse and thick power cable"],
+  ['T','Hydraulic car jack','hydraulic car jack',"Lets you change a tyre safely and easily.","Load rating must be above your car's weight|Check the lifting range suits your car|Use it on flat ground with wheels blocked"],
+  ['E','GPS tracker','car gps tracker',"Track your car if it is stolen or when someone else is driving.","Choose live tracking with a phone app|Check for a SIM or data plan cost|A battery backup keeps it working if power is cut"],
+  ['S','Warning triangle reflector','car warning triangle reflector',"Warns other drivers when you break down on the road.","Reflective and foldable is ideal|A weighted base resists wind|Place it well behind your car"],
+  ['I','Seat gap filler','car seat gap filler',"Stops phones and coins from falling between seat and console.","Soft, flexible material fits best|Measure the gap first|Universal sizes are usually fine"],
+  ['C','Anti-fog glass cleaner','car glass cleaner anti fog',"Streak-free glass helps in night and rain visibility.","Pick an ammonia-free formula if you have tint|Use a clean microfiber cloth|Wipe both inside and outside"],
+  ['F','Brake fluid, DOT 4','brake fluid DOT 4',"Your brakes rely on clean, fresh fluid.","Check the DOT grade in your owner's manual|Buy a sealed fresh bottle|Have a garage do the bleeding"],
+  ['X','Shark fin antenna','car shark fin antenna',"A neat look with decent radio reception.","Check it matches your stereo's connector|Look at the cable length|Weatherproof build matters"],
+  ['W','Wheel covers','car wheel covers',"Hide plain steel wheels and give a cleaner look.","Match your wheel size, such as 14 or 15 inch|Clip-on fit should feel firm|Check for wobble after fitting"],
+  ['T','Car battery charger','car battery charger',"Keeps your battery healthy when the car sits for days.","A smart charger shuts off automatically|Check it is 12 V|Reverse-polarity protection is a useful safety feature"],
+  ['K','Sunglass holder','car sunglass holder',"Quick access to your glasses, with no rattling.","An overhead clip is the most common type|Felt lining prevents scratches|Check the size fits your glasses"],
+  ['S','Rain repellent glass coating','car glass rain repellent',"Water beads and rolls off the windshield for better monsoon visibility.","Apply to clean, dry glass|Reapply every few months|Check it is safe with your wipers"],
+  ['A','Sound deadening mat','car sound deadening mat',"Cuts road noise and door rattle.","Butyl-based mats work well|Start with the doors|Press it down with a roller"],
+  ['F','Fuel system cleaner','fuel system cleaner car',"Cleans injectors and can help the engine run more smoothly.","Choose the right type for petrol or diesel|Use as directed, more is not better|It helps but does not replace regular servicing"],
+  ['T','Rechargeable LED torch','rechargeable led torch',"Handy at night breakdowns or when looking for something in the boot.","USB charging is convenient|A magnetic base frees your hands|Check the runtime per charge"],
+  ['X','Number plate frame','car number plate frame',"A neater, protected number plate.","It must not cover any of the registration number|Rust-proof material lasts longer|Check the size fits your plate"],
+  ['K','Back seat tray','car back seat tray',"A table for kids' snacks, colouring or a tablet on the road.","Adjustable and sturdy|Cup holders are useful|Check the strap fits your seat"],
+  ['W','Tyre valve caps','tyre valve caps',"Keep dust and moisture out of your tyre valves.","Metal caps last longer than plastic|Anti-theft types are available|Match your valve size"],
+  ['E','Wireless CarPlay adapter','wireless carplay adapter',"Skip the cable. Your phone connects automatically.","Your car needs wired CarPlay or Android Auto first|Pick the version for iPhone or Android|Look for firmware updates"],
+  ['C','Interior detailing brush set','car detailing brush set',"Cleans air vents, seams and tight corners.","Soft bristles protect surfaces|A mix of sizes is useful|Wash them after use"],
+  ['F','Wiper washer fluid','car wiper washer fluid',"A cleaner windshield with fewer streaks.","Concentrate or ready-to-use both work|Choose one that removes bugs and grime|Do not top up with plain water all the time"],
+  ['S','Anti-theft steering wheel lock','car steering wheel lock',"A visible deterrent that makes theft harder.","Strong steel is important|It should adjust to your wheel size|Keep a spare key safe"],
+  ['T','Torque wrench','torque wrench',"Tightens wheel nuts to the correct torque.","Wheel nuts usually need about 80 to 120 Nm, check your manual|Click-type wrenches are easy to use|Store it at the lowest setting"],
+  ['A','Car tweeters','car tweeters',"Crisper high notes in your music.","Check they suit your speakers|Flush-mount or surface-mount options|They usually need a crossover"],
+  ['X','Door visor rain guard','car door visor rain guard',"Lets you keep windows slightly open in the rain.","Buy the set made for your model|Stick-on or in-channel types are available|Smoked acrylic looks neat"],
+  ['W','Tyre sealant','tyre sealant',"A temporary fix for a slow leak.","Use only on tubeless tyres|It is temporary, get the tyre checked soon|Read the instructions before an emergency"],
+  ['K','Headrest coat hook','car headrest hook',"Hang bags and jackets without clutter.","Check the weight rating|Make sure it fits your headrest posts|A metal core is more durable"],
+  ['I','Tissue box holder','car tissue box holder',"Tissues within reach for the driver and passengers.","A sun visor or headrest mount works best|Choose a secure clip|Refillable types save money"],
+  ['F','Engine flush','engine flush',"Loosens sludge before an oil change.","Suits older engines with irregular servicing|Use it just before an oil change|Not needed for every engine, check with your mechanic"],
+  ['S','Reflective tape','car reflective tape',"Makes your car easier to see at night.","High-intensity reflective grade is best|Apply to the rear edges|Clean the surface first"],
+  ['T','Wheel spanner','car wheel spanner',"Loosens wheel nuts when you need to change a tyre.","Check the socket size, often 17, 19 or 21 mm|A cross-shaped spanner gives more leverage|Keep it in the boot"],
+  ['A','Speaker wiring harness','car speaker wiring harness',"Plug-in installation of speakers without cutting factory wires.","Buy the harness for your car model|Includes the right connectors|Get it fitted by a professional if unsure"],
+  ['F','Gear oil','car gear oil',"Smoother gear changes and less wear.","Manual and automatic use different types|Check the grade in your manual|Change it as per your service schedule"],
+  ['W','Tyre tread depth gauge','tyre tread depth gauge',"Shows when your tyres are worn out.","A digital or simple coin-style gauge both work|Measure in several spots|Replace tyres when tread is around 1.6 mm"],
+  ['I','Back seat kick mats','car back seat kick mat',"Protects the seat backs from kids' shoes.","Waterproof is easiest to clean|Check it fits your seat back|Choose one with pockets if you want storage"],
+  ['X','Headlight restoration kit','headlight restoration kit',"Clears yellowed, foggy headlights for better night vision.","A good kit includes sandpaper and polish|Follow the steps in order|Add a UV sealant so it lasts"],
+  ['T','Multipurpose grease','multipurpose grease car',"Lubricates hinges, joints and bearings.","Lithium grease is a good all-round choice|Apply sparingly|Wipe off the excess"],
+  ['F','Distilled battery water','distilled battery water',"Tops up the cells of a conventional battery.","Only for batteries that are not sealed|Fill to the marked level|Check it monthly in summer"],
+  ['A','Car horn','car horn',"A louder, cleaner horn.","Check the loudness rating|A waterproof build lasts longer|Follow your local sound limits"],
+  ['S','Roadside emergency kit','car roadside emergency kit',"Everything for a breakdown in one bag.","Look for a triangle, torch, gloves and cables|A compact case fits under the seat|Check the contents when you get it"],
+  ['W','Wheel lock nuts','car wheel lock nuts',"Makes wheel theft harder.","Match your wheel's thread size|Keep the key somewhere safe|Choose alloy or steel that suits your wheels"],
+  ['E','Dash cam hardwire kit','dash cam hardwire kit',"Powers your dash cam so parking mode can work.","Check it supports your dash cam's voltage|Look for a low-voltage cutoff to protect the battery|Professional fitting is a good idea"]
+];
+
+function tipsOf(s){ return s ? s.split('|').map(t => t.trim()).filter(Boolean) : []; }
+
+function builtinItems(){
+  return BUILTIN.map(([c, name, query, why, tips], i) => ({
+    rank: i + 1, name, query, why, tips: tipsOf(tips), category: CATS[c][0]
+  }));
+}
+const GUIDE_BY_NAME = Object.fromEntries(builtinItems().map(i => [i.name, i]));
+
+/* ---------- Cars: brand -> models (CarDekho's 42 brands, plus older brands still on the road) ---------- */
+const CARS = {
+  'Maruti Suzuki': ['Alto K10','Alto Tour H1','S-Presso','Celerio','Wagon R','Wagon R Tour','Swift','Dzire','Dzire Tour S','Baleno','Fronx','Brezza','Grand Vitara','Victoris','Ertiga','Ertiga Tour','XL6','Jimny','Invicto','Eeco','Eeco Cargo','Eeco Tour V','e Vitara','Ciaz','Ignis','Alto 800','Ritz','A-Star','Zen Estilo','SX4','S-Cross','Omni','Gypsy','Maruti 800'],
+  'Tata': ['Tiago','Tiago EV','Tigor','Tigor EV','Aeris','Altroz','Punch','Punch EV','Nexon','Nexon EV','Curvv','Curvv EV','Harrier','Harrier EV','Safari','Sierra','Sierra EV','Xpres-T EV','Indica','Indica Vista','Indigo','Manza','Zest','Bolt','Nano','Hexa','Safari Storme','Sumo'],
+  'Hyundai': ['Grand i10 Nios','Aura','i20','i20 N Line','Exter','Venue','Venue N Line','Verna','Creta','Creta N Line','Creta Electric','Alcazar','Tucson','Ioniq 5','Santro','Eon','i10','Xcent','Elantra','Accent','Sonata','Getz','Kona Electric'],
+  'Mahindra': ['Bolero','Bolero Neo','Bolero Neo Plus','Scorpio Classic','Scorpio N','Thar OG','Thar','Thar Roxx','XUV 3XO','XUV700','XUV400 EV','BE 6','XEV 9e','XEV 9S','XUV500','XUV300','KUV100','TUV300','Marazzo','Alturas G4','Xylo','Verito','Quanto','Scorpio'],
+  'Kia': ['Sonet','Seltos','Carens','Carens Clavis','Carens Clavis EV','Syros','Carnival','Sorento','EV6','EV9'],
+  'Toyota': ['Glanza','Urban Cruiser Taisor','Urban Cruiser Hyryder','Rumion','Innova Crysta','Innova Hycross','Fortuner','Fortuner Legender','Hilux','Camry','Vellfire','Land Cruiser 300','Land Cruiser Prado','Etios','Etios Liva','Etios Cross','Corolla Altis','Innova','Qualis','Yaris','Prius'],
+  'Honda': ['Amaze','Amaze 2nd Gen','City','City Hybrid','Elevate','Brio','Jazz','WR-V','BR-V','Mobilio','Civic','Accord','CR-V'],
+  'MG': ['Comet EV','Windsor EV','ZS EV','Astor','Hector','Hector Plus','Gloster','M9','Cyberster'],
+  'Skoda': ['Kylaq','Slavia','Kushaq','Kodiaq','Superb','Octavia','Rapid','Fabia','Yeti','Laura'],
+  'Jeep': ['Compass','Meridian','Wrangler','Grand Cherokee'],
+  'Renault': ['Kwid','Triber','Kiger','Duster','Pulse','Scala','Fluence','Lodgy','Captur','Koleos'],
+  'Nissan': ['Magnite','X-Trail','Gravite','Micra','Sunny','Terrano','Kicks','Evalia','GT-R'],
+  'Volkswagen': ['Virtus','Taigun','Tiguan','Tiguan R-Line','Golf GTI','Tayron R-Line','Polo','Vento','Ameo','Jetta','Passat','Beetle'],
+  'Citroen': ['C3','eC3','C3 Aircross','Basalt','Aircross','C5 Aircross'],
+  'Aston Martin': ['DB12','Vantage','DBX707','Vanquish'],
+  'Audi': ['A4','A5','A6','A8 L','Q3','Q3 Sportback','Q5','Q7','Q8','Q8 e-tron','e-tron GT','RS e-tron GT','RS Q8','S5 Sportback','R8','TT'],
+  'Bajaj': ['Qute'],
+  'Bentley': ['Continental GT','Flying Spur','Bentayga'],
+  'BMW': ['2 Series Gran Coupe','3 Series Gran Limousine','5 Series','6 Series GT','7 Series','i4','i5','i7','iX','iX1','iX1 LWB','X1','X3','X4','X5','X6','X7','XM','Z4','M2','M4 Competition','M5','M340i','M8 Competition'],
+  'BYD': ['Atto 3','Seal','eMAX 7','Sealion 7'],
+  'Ferrari': ['296 GTB','296 GTS','Roma','Purosangue','SF90 Stradale','812 GTS','12Cilindri','Amalfi'],
+  'Force': ['Gurkha','Gurkha 5-Door','Urbania','Trax Cruiser'],
+  'Isuzu': ['D-Max V-Cross','D-Max Hi-Lander','D-Max Regular Cab','D-Max S-Cab','MU-X'],
+  'Jaguar': ['F-Pace','I-Pace','F-Type','XF','XE','XJ','E-Pace'],
+  'Lamborghini': ['Revuelto','Urus','Urus SE','Temerario','Huracan'],
+  'Land Rover': ['Defender','Range Rover','Range Rover Sport','Range Rover Velar','Range Rover Evoque','Discovery Sport','Discovery','Freelander 2'],
+  'Lexus': ['ES 300h','NX 350h','RX 350h','RX 500h','LX 500d','LM 350h','LC 500h','LS 500h','UX 300e'],
+  'Lotus': ['Emira','Eletre','Emeya'],
+  'Maserati': ['Ghibli','Levante','Quattroporte','MC20','GranTurismo','GranCabrio','Grecale'],
+  'McLaren': ['Artura','GT','720S','750S'],
+  'Mercedes-Benz': ['A-Class Limousine','C-Class','E-Class','S-Class','Maybach S-Class','CLA','CLE Cabriolet','GLA','GLB','GLC','GLE','GLS','Maybach GLS','G-Class','Electric G-Class','EQA','EQB','EQE SUV','EQS Sedan','EQS SUV','Maybach EQS SUV','AMG A 45 S','AMG C 63 S','AMG E 53','AMG GLE 53 Coupe','AMG GT 63','AMG SL 55','AMG G 63','AMG S 63','V-Class'],
+  'Mini': ['Cooper S','Cooper SE','Countryman','Countryman Electric','Cooper Convertible','John Cooper Works'],
+  'PMV': ['EaS-E'],
+  'Porsche': ['911','718 Boxster','718 Cayman','Panamera','Macan','Macan Electric','Cayenne','Cayenne Coupe','Taycan'],
+  'Pravaig': ['Defy'],
+  'Rolls-Royce': ['Phantom','Ghost','Cullinan','Spectre'],
+  'Strom Motors': ['R3'],
+  'Tesla': ['Model Y'],
+  'Vayve Mobility': ['Eva'],
+  'VinFast': ['VF 3','VF 6','VF 7','VF 9'],
+  'Volvo': ['XC40','EX40','EC40','EX30','XC60','XC90','S90','EX90','ES90'],
+  'Ford': ['Figo','Figo Aspire','Aspire','Freestyle','EcoSport','Endeavour','Fiesta','Classic','Ikon','Fusion','Mustang'],
+  'Chevrolet': ['Beat','Spark','Sail','Sail U-VA','Enjoy','Cruze','Aveo','Optra','Tavera','Captiva','Trailblazer'],
+  'Datsun': ['Go','Go+','redi-GO'],
+  'Fiat': ['Punto','Punto Evo','Linea','Avventura','Palio','Uno'],
+  'Mitsubishi': ['Pajero Sport','Montero','Outlander','Lancer','Cedia'],
+  'Hindustan Motors': ['Ambassador']
+};
+// electric cars: whole brands, plus model names that mark an electric car
+const EV_BRANDS = new Set(['BYD','Tesla','VinFast','Vayve Mobility','Strom Motors','PMV','Pravaig']);
+const EV_RE = /\b(EV|Electric)\b|e-tron|Recharge|\bEQ[A-Z]|^EV\d|^i(4|5|7|X)\b|^iX1|^E[XC]\d{2}\b|^eC3|^e Vitara|^BE 6|^XEV|^XUV400|^Ioniq|^UX 300e|^Taycan|^Eletre|^Emeya|^Spectre|^I-Pace|Cooper SE|^M9$|^Cyberster|^Xpres-T/i;
+const isEVModel = (brand, model) => EV_BRANDS.has(brand) || EV_RE.test(model);
+
+// products that depend on the car model: with a car selected they link to Amazon results for that car
+const FIT = new Set([
+  'Car seat covers','7D car floor mats','Car body cover','Steering wheel cover','Wiper blades','LED headlight bulbs',
+  'Door edge guards','Mud flaps','Fog lamps','Shark fin antenna','Bumper protector','Door visor rain guard',
+  'Windshield sunshade','Side window sun shades','Car speakers, 6.5 inch','Speaker wiring harness','Android car stereo',
+  'Boot organiser','Back seat kick mats','Wheel covers','Wheel lock nuts','Dash cam hardwire kit','Sound deadening mat',
+  'Engine oil, 5W-30','Engine coolant','Gear oil'
+].filter(Boolean));
+// not needed on an electric car
+const EV_HIDE = new Set(['Engine oil, 5W-30','Engine coolant','Engine flush','Fuel system cleaner','Gear oil','Distilled battery water']);
+
+let selectedCar = null;
+const carIsEV = () => !!selectedCar && (selectedCar.ev || isEVModel(selectedCar.brand, selectedCar.model));
+const carLabel = () => selectedCar ? selectedCar.brand + ' ' + selectedCar.model : '';
+const isFitItem = it => !!selectedCar && FIT.has(it.name);
+
+/* ---------- Helpers ---------- */
+const $ = id => document.getElementById(id);
+function el(tag, cls, text){
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text != null) n.textContent = text;
+  return n;
+}
+const pad = n => String(n).padStart(2, '0');
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+function amazonLink(it){
+  const base = 'https://' + CONFIG.market;
+  const tag = encodeURIComponent(CONFIG.tag);
+  if (isFitItem(it)){
+    const q = carLabel() + ' ' + (it.query || it.name);
+    return base + '/s?k=' + encodeURIComponent(q) + '&tag=' + tag;
+  }
+  if (it.asin) return base + '/dp/' + encodeURIComponent(it.asin) + '?tag=' + tag;
+  return base + '/s?k=' + encodeURIComponent(it.query || it.name) + '&tag=' + tag;
+}
+
+const ctaLabel = it => 'Buy on Amazon.in';
+const ariaBuy = it => isFitItem(it)
+  ? 'Buy ' + it.name + ' for ' + carLabel() + ' on Amazon.in, opens in a new tab'
+  : 'Buy ' + it.name + ' on Amazon.in, opens in a new tab';
+
+/* Icon tile that upgrades to a photo when one loads (from products.json or the images folder) */
+function visual(it, cls){
+  const meta = CAT_META[it.category] || CAT_DEFAULT;
+  const box = el('span', cls);
+  box.style.setProperty('--bg', meta.bg);
+  box.style.setProperty('--fg', meta.fg);
+  const icon = el('span', 'ico');
+  icon.innerHTML = productIcon(it.name, meta); // original detailed product illustration with category fallback
+  box.appendChild(icon);
+  // try, in order: photo from products.json, this product's photo, then a sample photo for its category
+  const tries = [];
+  if (it.image) tries.push({src: it.image, cover: false});
+  if (CONFIG.localImages){
+    tries.push({src: CONFIG.imageDir + '/' + slug(it.name) + '.jpg', cover: false});
+    tries.push({src: CONFIG.imageDir + '/category-' + slug(it.category) + '.jpg', cover: true});
+  }
+  (function next(){
+    const t = tries.shift();
+    if (!t) return;                         // nothing found: the icon stays
+    const img = new Image();
+    img.alt = '';
+    img.decoding = 'async';
+    img.onload = () => {
+      const photo = el('span', 'photo' + (t.cover ? ' cover' : ''));
+      photo.appendChild(img);
+      box.insertBefore(photo, box.firstChild);
+      icon.remove();
+    };
+    img.onerror = next;
+    img.src = t.src;
+  })();
+  box.appendChild(el('span', 'plate', pad(it.rank)));
+  return box;
+}
+
+/* ---------- State ---------- */
+let items = [];
+let priceAsOfText = '';
+let activeCat = 'All';
+let term = '';
+const $grid = $('grid'), $chips = $('chips'), $count = $('count'), $empty = $('empty'),
+      $q = $('q'), $sheet = $('sheet'), $track = $('track'),
+      $brand = $('carBrand'), $model = $('carModel'), $fitH = $('fitH'), $fitNote = $('fitNote'),
+      $gridFit = $('gridFit'), $restH = $('restH');
+
+// all products, minus engine and fuel items when an electric car is selected
+function shown(){
+  return carIsEV() ? items.filter(it => !EV_HIDE.has(it.name)) : items;
+}
+
+/* ---------- Carousel ---------- */
+function slide(it, dup){
+  const a = el('a', 'slide' + (dup ? ' dup' : ''));
+  a.href = '#affiliate-results';
+  a.addEventListener('click', e => { e.preventDefault(); if(!dup)openAffiliateResults(it); });
+  a.draggable = false;
+  if (dup){ a.setAttribute('aria-hidden', 'true'); a.tabIndex = -1; }
+  a.appendChild(visual(it, 's-media'));
+  const t = el('span', 's-text');
+  t.appendChild(el('span', 's-name', it.name));
+  t.appendChild(el('span', 's-cta', ctaLabel(it)));
+  a.appendChild(t);
+  return a;
+}
+function wireMarqueeControls(){
+  const m = $('marquee');
+  const step = () => Math.max(230, Math.min(m.clientWidth * 0.82, 420));
+  $('popPrev').addEventListener('click', () => m.scrollBy({left:-step(), behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'}));
+  $('popNext').addEventListener('click', () => m.scrollBy({left:step(), behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'}));
+  // Keep keyboard users able to move the same carousel without needing a mouse or touch gesture.
+  m.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') { e.preventDefault(); m.scrollBy({left:step(),behavior:'smooth'}); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); m.scrollBy({left:-step(),behavior:'smooth'}); }
+  });
+}
+wireMarqueeControls();
+
+function buildCarousel(){
+  const top = shown().slice(0, CONFIG.carouselCount);
+  // three copies: the middle one is the real list, the outer two let the loop wrap invisibly in both directions
+  $track.replaceChildren(...top.map(it => slide(it, true)), ...top.map(it => slide(it, false)), ...top.map(it => slide(it, true)));
+  startMarquee();
+}
+
+let marqueeStarted = false;
+function startMarquee(){
+  if (marqueeStarted) return;
+  marqueeStarted = true;
+  const m = $('marquee');
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;   // plain swipeable row instead
+
+  const SPEED = 68;                                  // pixels per second; brisk but still touch-friendly
+  const third = () => $track.scrollWidth / 3;        // width of one copy of the list
+  let pos, last = performance.now();
+  let holdUntil = 0, touching = false, mouseDown = false, hovering = false, focused = false, wasHeld = false;
+  const hold = (ms = 1600) => { holdUntil = performance.now() + ms; };
+
+  m.scrollLeft = third();
+  pos = m.scrollLeft;
+
+  /* finger: native swipe. Auto-scroll stays out of the way until the touch and its momentum end. */
+  m.addEventListener('touchstart', () => { touching = true; hold(); }, {passive:true});
+  const touchDone = () => { touching = false; hold(); };
+  m.addEventListener('touchend', touchDone, {passive:true});
+  m.addEventListener('touchcancel', touchDone, {passive:true});
+  m.addEventListener('scroll', () => { if (touching || mouseDown || performance.now() < holdUntil) hold(); }, {passive:true});
+
+  /* mouse: hover pauses so items are easy to click, and click-drag scrolls */
+  m.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') hovering = true; });
+  m.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') hovering = false; });
+  let startX = 0, startLeft = 0, moved = false;
+  m.addEventListener('pointerdown', e => {
+    if (e.pointerType !== 'mouse' || e.button !== 0) return;
+    mouseDown = true; moved = false; startX = e.clientX; startLeft = m.scrollLeft;
+  });
+  window.addEventListener('pointermove', e => {
+    if (!mouseDown) return;
+    const dx = e.clientX - startX;
+    if (Math.abs(dx) > 5) moved = true;
+    if (moved){ m.classList.add('dragging'); m.scrollLeft = startLeft - dx; }
+  });
+  window.addEventListener('pointerup', () => {
+    if (!mouseDown) return;
+    mouseDown = false; m.classList.remove('dragging'); hold();
+  });
+  m.addEventListener('click', e => { if (moved){ e.preventDefault(); e.stopPropagation(); moved = false; } }, true);
+
+  /* keyboard focus also pauses */
+  m.addEventListener('focusin', () => { focused = true; });
+  m.addEventListener('focusout', () => { focused = false; });
+
+  function tick(now){
+    const dt = Math.min((now - last) / 1000, 0.1);
+    last = now;
+    const W = third();
+    const held = touching || mouseDown || hovering || focused || now < holdUntil;
+    if (held){
+      wasHeld = true;
+    } else if (W > 0){
+      if (wasHeld){ pos = m.scrollLeft; wasHeld = false; }
+      pos += SPEED * dt;
+      while (pos >= 2 * W) pos -= W;                 // copies are identical, so the jump is invisible
+      while (pos < W) pos += W;
+      m.scrollLeft = pos;
+    }
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+/* ---------- Product cards ---------- */
+function card(it){
+  const li = el('li', 'card');
+  li.dataset.productName = it.name;
+  li.appendChild(visual(it, 'media'));
+
+  const body = el('div', 'cbody');
+  body.appendChild(el('span', 'pill', it.category));
+  body.appendChild(el('h3', 'name', it.name));
+  if (it.title && it.title !== it.name) body.appendChild(el('p', 'ptitle', it.title));
+  if (it.price){
+    const pr = el('p', 'price', it.priceText || ('₹' + Number(it.price).toLocaleString('en-IN')));
+    if (priceAsOfText) pr.appendChild(el('span', 'asof', 'as of ' + priceAsOfText));
+    body.appendChild(pr);
+  }
+  if (it.why) body.appendChild(el('p', 'why', it.why));
+
+  const actions = el('div', 'actions');
+  if (it.why || (it.tips && it.tips.length)){
+    const b = el('button', 'btn ghost', 'Buying tips');
+    b.type = 'button';
+    b.setAttribute('aria-label', 'Buying tips for ' + it.name);
+    b.addEventListener('click', () => openSheet(it));
+    actions.appendChild(b);
+  }
+  const a = el('a', 'btn buy', 'See Top 10 Picks');
+  a.href = '#affiliate-results';
+  a.setAttribute('aria-label', 'See top 10 related picks for ' + it.name + ' before opening Amazon');
+  a.addEventListener('click', e => { e.preventDefault(); openAffiliateResults(it); });
+  actions.appendChild(a);
+  body.appendChild(actions);
+
+  li.appendChild(body);
+  return li;
+}
+
+/* ---------- Detail sheet ---------- */
+function openSheet(it){
+  $('sPlate').textContent = pad(it.rank);
+  $('sCat').textContent = it.category;
+  $('sTitle').textContent = it.name;
+  $('sWhy').textContent = it.why || '';
+  $('sTips').replaceChildren(...(it.tips || []).map(t => el('li', null, t)));
+  $('sBuy').href = '#affiliate-results';
+  $('sBuy').textContent = 'See Top 10 Picks';
+  $('sBuy').setAttribute('aria-label', 'See top 10 related picks for ' + it.name + ' before opening Amazon');
+  $('sBuy').onclick = e => { e.preventDefault(); $sheet.close(); openAffiliateResults(it); };
+  $sheet.showModal();
+}
+$('sClose').addEventListener('click', () => $sheet.close());
+$sheet.addEventListener('click', e => { if (e.target === $sheet) $sheet.close(); });
+
+/* ---------- Grid, filters ---------- */
+function render(){
+  const base = shown();
+  const t = term.trim().toLowerCase();
+  const list = base.filter(it =>
+    (activeCat === 'All' || it.category === activeCat) &&
+    (!t || it.name.toLowerCase().includes(t) || it.category.toLowerCase().includes(t))
+  );
+  if (selectedCar){
+    const fit = list.filter(it => FIT.has(it.name));
+    const rest = list.filter(it => !FIT.has(it.name));
+    $fitH.textContent = 'Made for your ' + carLabel();
+    $fitH.hidden = $fitNote.hidden = $gridFit.hidden = fit.length === 0;
+    $gridFit.replaceChildren(...fit.map(card));
+    $restH.hidden = rest.length === 0 || fit.length === 0;
+    $grid.replaceChildren(...rest.map(card));
+  } else {
+    $fitH.hidden = $fitNote.hidden = $gridFit.hidden = $restH.hidden = true;
+    $gridFit.replaceChildren();
+    $grid.replaceChildren(...list.map(card));
+  }
+  $empty.hidden = list.length > 0;
+  $count.textContent = list.length === base.length
+    ? 'All ' + base.length + ' picks, ranked'
+    : 'Showing ' + list.length + ' of ' + base.length + ' picks';
+}
+function syncChips(){
+  $chips.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(c.textContent === activeCat)));
+}
+function buildChips(){
+  const names = ['All', ...new Set(shown().map(i => i.category))];
+  if (!names.includes(activeCat)) activeCat = 'All';
+  $chips.replaceChildren(...names.map(n => {
+    const b = el('button', 'chip');
+    b.type = 'button';
+    b.setAttribute('aria-pressed', String(n === activeCat));
+    const iconBox = el('span', 'chip-icon');
+    let iconSvg = '';
+    if (n === 'All') {
+      iconSvg = '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 17h32l-3 24H11z"/><path d="M17 18v-5a7 7 0 0 1 14 0v5"/><path d="M18 27h12"/></svg>';
+      iconBox.style.setProperty('--chip-bg', '#e8edf6');
+      iconBox.style.setProperty('--chip-fg', '#34445f');
+    } else {
+      const meta = CAT_META[n];
+      iconSvg = meta ? meta.svg : CAT_DEFAULT.svg;
+      iconBox.style.setProperty('--chip-bg', meta ? meta.bg : CAT_DEFAULT.bg);
+      iconBox.style.setProperty('--chip-fg', meta ? meta.fg : CAT_DEFAULT.fg);
+    }
+    iconBox.innerHTML = iconSvg;
+    b.append(iconBox, el('span', 'chip-label', n));
+    b.addEventListener('click', () => {
+      activeCat = n;
+      syncChips();
+      render();
+      requestAnimationFrame(() => {
+        const target = $('count');
+        target.scrollIntoView({block:'start', behavior:matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+      });
+    });
+    return b;
+  }));
+}
+function showDate(dateStr){
+  const d = new Date(dateStr + 'T00:00:00');
+  $('updated').textContent = isNaN(d) ? '' :
+    'List updated ' + d.toLocaleDateString('en-IN', {day:'numeric', month:'long', year:'numeric'}) + '.';
+}
+
+/* ---------- Car selector ---------- */
+const OTHER = '__other';
+function opt(v, t){ const o = document.createElement('option'); o.value = v; o.textContent = t; return o; }
+function fillBrands(){
+  $brand.replaceChildren(opt('', 'Select brand'), ...Object.keys(CARS).map(b => opt(b, b)), opt(OTHER, 'Other brand (type it)'));
+}
+function fillModels(){
+  const b = $brand.value;
+  if (b === OTHER){ $model.replaceChildren(opt('', 'Type your model below')); $model.disabled = true; return; }
+  $model.replaceChildren(
+    opt('', b ? 'Select model' : 'Select brand first'),
+    ...(b ? CARS[b].map(m => opt(m, m)) : []),
+    ...(b ? [opt(OTHER, 'My model is not listed')] : [])
+  );
+  $model.disabled = !b;
+}
+function updateCustomUI(){
+  const brandOther = $brand.value === OTHER;
+  $('carCustom').hidden = !(brandOther || $model.value === OTHER);
+  $('cfBrand').hidden = !brandOther;
+}
+function updateCarUI(){
+  $('carClear').hidden = !(selectedCar || $brand.value);
+  $('carStatus').textContent = selectedCar
+    ? 'Showing picks for ' + carLabel() + '.' + (carIsEV() ? ' Engine oil and fuel products are hidden because this is an electric car.' : '')
+    : '';
+}
+function setCar(brand, model, fromUser, ev){
+  selectedCar = (brand && model) ? {brand, model, ev: !!ev} : null;
+  try {
+    if (selectedCar) localStorage.setItem('j3vCar', JSON.stringify(selectedCar));
+    else localStorage.removeItem('j3vCar');
+  } catch (e) { /* storage unavailable */ }
+  updateCarUI();
+  updateCarPreview();
+  buildCarousel();
+  buildChips();
+  render();
+  renderShelves();
+  if (selectedCar && fromUser) $fitH.scrollIntoView({behavior:'smooth', block:'start'});
+}
+function applyCustom(){
+  const brand = $brand.value === OTHER ? $('carBrandText').value.trim() : $brand.value;
+  const model = $('carModelText').value.trim();
+  if (!brand || !model){
+    $('carStatus').textContent = 'Type the ' + ($brand.value === OTHER ? 'brand and model' : 'model') + ', then tap Use this car.';
+    return;
+  }
+  setCar(brand, model, true, $('carEv').checked || isEVModel(brand, model));
+}
+function restoreCar(){
+  try {
+    const c = JSON.parse(localStorage.getItem('j3vCar') || 'null');
+    if (!c || !c.brand || !c.model) return;
+    selectedCar = {brand: c.brand, model: c.model, ev: !!c.ev};
+    if (CARS[c.brand]){
+      $brand.value = c.brand; fillModels();
+      if (CARS[c.brand].includes(c.model)) $model.value = c.model;
+      else { $model.value = OTHER; $('carModelText').value = c.model; }
+    } else {
+      $brand.value = OTHER; fillModels();
+      $('carBrandText').value = c.brand; $('carModelText').value = c.model;
+    }
+    $('carEv').checked = !!c.ev;
+    updateCustomUI();
+  } catch (e) { /* ignore */ }
+}
+$brand.addEventListener('change', () => { fillModels(); updateCustomUI(); setCar(null, null, false); });
+$model.addEventListener('change', () => {
+  updateCustomUI();
+  if (!$model.value || $model.value === OTHER){ setCar(null, null, false); return; }
+  setCar($brand.value, $model.value, true, false);
+});
+$('carApply').addEventListener('click', applyCustom);
+['carBrandText', 'carModelText'].forEach(id => $(id).addEventListener('keydown', e => {
+  if (e.key === 'Enter'){ e.preventDefault(); applyCustom(); }
+}));
+$('carClear').addEventListener('click', () => {
+  $brand.value = ''; fillModels(); updateCustomUI();
+  $('carBrandText').value = ''; $('carModelText').value = ''; $('carEv').checked = false;
+  setCar(null, null, false);
+});
+
+/* ---------- Best selling, top rated, top deals (live Amazon data only) ---------- */
+let hasLive = false;
+let shelfKind = 'sell';
+const SHELVES = {sell: 'Best selling', rated: 'Top rated', deals: 'Top deals'};
+
+function shelfList(kind){
+  // car-specific products are left out: a single listing may not fit every car
+  const base = shown().filter(it => !FIT.has(it.name));
+  const mk = (it, p, badge) => ({label: it.name, category: it.category, ...p, badge});
+  if (kind === 'sell'){
+    return base.filter(it => it.asin && it.price && it.salesRank)
+      .sort((a, b) => a.salesRank - b.salesRank).slice(0, 12)
+      .map(it => mk(it, {asin: it.asin, title: it.title, price: it.price, priceText: it.priceText, image: it.image},
+                    'Amazon sales rank #' + Number(it.salesRank).toLocaleString('en-IN')));
+  }
+  if (kind === 'rated'){
+    return base.filter(it => it.rated && it.rated.price)
+      .sort((a, b) => (a.rated.salesRank ?? 1e12) - (b.rated.salesRank ?? 1e12)).slice(0, 12)
+      .map(it => mk(it, it.rated, 'Rated 4 stars and up'));
+  }
+  if (kind === 'deals'){
+    return base.filter(it => it.deal && it.deal.price && it.deal.percent >= 10)
+      .sort((a, b) => b.deal.percent - a.deal.percent).slice(0, 12)
+      .map(it => mk(it, it.deal, it.deal.percent + '% off'));
+  }
+  return [];
+}
+function istTime(iso){
+  const d = new Date(iso);
+  return isNaN(d) ? '' : d.toLocaleString('en-IN', {day:'numeric', month:'short', hour:'numeric', minute:'2-digit', timeZone:'Asia/Kolkata'}) + ' IST';
+}
+function shelfCard(p, n){
+  const li = el('li', 'card');
+  li.appendChild(visual({name: p.label, category: p.category, image: p.image, rank: n}, 'media'));
+  const body = el('div', 'cbody');
+  body.appendChild(el('span', 'pill hot', p.badge));
+  body.appendChild(el('h3', 'name', p.label));
+  if (p.title && p.title !== p.label) body.appendChild(el('p', 'ptitle', p.title));
+  const pr = el('p', 'price', p.priceText || ('₹' + Number(p.price).toLocaleString('en-IN')));
+  if (p.was){ const w = el('span', 'was', p.was); if (p.wasLabel) w.title = p.wasLabel; pr.appendChild(w); }
+  if (priceAsOfText) pr.appendChild(el('span', 'asof', 'as of ' + priceAsOfText));
+  body.appendChild(pr);
+  if (p.dealEnd && new Date(p.dealEnd) > new Date()) body.appendChild(el('p', 'ptitle', 'Deal ends ' + istTime(p.dealEnd)));
+  const actions = el('div', 'actions');
+  const a = el('a', 'btn buy', 'See Top 10 Picks');
+  a.href = '#affiliate-results';
+  a.setAttribute('aria-label', 'See top 10 related picks for ' + (p.title || p.label));
+  a.addEventListener('click', e => { e.preventDefault(); const source=shown().find(it=>it.name===p.label)||{name:p.label,category:p.category,query:p.title||p.label}; openAffiliateResults(source); });
+  actions.appendChild(a);
+  body.appendChild(actions);
+  li.appendChild(body);
+  return li;
+}
+function renderShelves(){
+  const kinds = hasLive ? Object.keys(SHELVES).filter(k => shelfList(k).length) : [];
+  $('shelves').hidden = kinds.length === 0;
+  if (!kinds.length) return;
+  if (!kinds.includes(shelfKind)) shelfKind = kinds[0];
+  $('tabs').replaceChildren(...kinds.map(k => {
+    const b = el('button', 'chip', SHELVES[k]);
+    b.type = 'button';
+    b.setAttribute('aria-pressed', String(k === shelfKind));
+    b.addEventListener('click', () => { shelfKind = k; renderShelves(); });
+    return b;
+  }));
+  $('shelf').replaceChildren(...shelfList(shelfKind).map((p, i) => shelfCard(p, i + 1)));
+  $('shelfNote').textContent = (shelfKind === 'rated'
+      ? 'Products Amazon lists at 4 stars and above. '
+      : shelfKind === 'deals' ? 'Products with the biggest discounts on Amazon.in right now. ' : 'Ranked by Amazon.in sales rank. ')
+    + 'These suit any car. Car-specific products are listed further down' + (selectedCar ? '.' : ' once you pick your car.');
+}
+
+/* ---------- Search suggestions: select a result to jump directly to its product card ---------- */
+// Category taps jump down to the matching result list.
+$('chips').addEventListener('click', e => { const chip=e.target.closest('button'); if(!chip)return; requestAnimationFrame(()=>{const target=$('count');if(target)target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});}); });
+
+const $suggestions = $('searchSuggestions');
+let suggestionItems = [];
+function hideSuggestions(){
+  $suggestions.hidden = true;
+  $suggestions.replaceChildren();
+  $q.setAttribute('aria-expanded', 'false');
+}
+function updateSuggestions(){
+  const raw = $q.value.trim().toLowerCase();
+  if (!raw){ hideSuggestions(); return; }
+  const words = raw.split(/\s+/).filter(Boolean);
+  const pool = shown().filter(it => {
+    const hay = (it.name + ' ' + it.category + ' ' + (it.query || '')).toLowerCase();
+    return words.every(w => hay.includes(w));
+  }).slice(0, 7);
+  suggestionItems = pool;
+  $suggestions.replaceChildren();
+  if (!pool.length){
+    $suggestions.appendChild(el('div','suggestion-empty','No matching products yet. Try “dash cam”, “mats” or “charger”.'));
+  } else {
+    pool.forEach(it => {
+      const b = el('button','suggestion');
+      b.type = 'button'; b.setAttribute('role','option');
+      const meta = CAT_META[it.category] || CAT_DEFAULT;
+      const ico = el('span','suggestion-ico');
+      ico.style.setProperty('--bg',meta.bg); ico.style.setProperty('--fg',meta.fg);
+      ico.innerHTML = productIcon(it.name, meta);
+      const copy = el('span','suggestion-copy');
+      copy.append(el('span','suggestion-name',it.name),el('span','suggestion-meta',it.category + ' · View product details'));
+      b.append(ico,copy,el('span','suggestion-arrow','↗'));
+      b.addEventListener('click', () => jumpToProduct(it));
+      $suggestions.appendChild(b);
+    });
+  }
+  $suggestions.hidden = false;
+  $q.setAttribute('aria-expanded','true');
+}
+function jumpToProduct(it){
+  term = it.name; $q.value = it.name; activeCat = 'All'; syncChips(); render(); hideSuggestions();
+  requestAnimationFrame(() => {
+    const cardEl = [...document.querySelectorAll('[data-product-name]')].find(n => n.dataset.productName === it.name);
+    if (cardEl){
+      cardEl.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'});
+      cardEl.classList.remove('search-target'); void cardEl.offsetWidth; cardEl.classList.add('search-target');
+      window.setTimeout(() => cardEl.classList.remove('search-target'), 1700);
+    }
+  });
+}
+$q.addEventListener('input', e => { term = e.target.value; render(); updateSuggestions(); });
+$q.addEventListener('focus', updateSuggestions);
+$q.addEventListener('keydown', e => {
+  if (e.key === 'Escape'){ hideSuggestions(); return; }
+  if (e.key === 'ArrowDown' && !$suggestions.hidden){
+    const first = $suggestions.querySelector('button'); if (first){e.preventDefault();first.focus();}
+  }
+});
+$suggestions.addEventListener('keydown', e => {
+  const buttons = [...$suggestions.querySelectorAll('button')], i = buttons.indexOf(document.activeElement);
+  if (e.key === 'ArrowDown' && i < buttons.length-1){e.preventDefault();buttons[i+1].focus();}
+  if (e.key === 'ArrowUp'){e.preventDefault(); if(i>0)buttons[i-1].focus(); else $q.focus();}
+  if (e.key === 'Escape'){hideSuggestions();$q.focus();}
+});
+document.addEventListener('click', e => { if (!$('all').contains(e.target)) hideSuggestions(); });
+
+/* ---------- Rotating featured picks. Only call it top-selling when a live sales-rank feed exists. ---------- */
+let featureIndex = 0, featureTimer = null, featureList = [];
+function showFeature(index){
+  if (!featureList.length) return;
+  featureIndex = (index + featureList.length) % featureList.length;
+  const it = featureList[featureIndex];
+  const banner = $('featureBanner'), product = $('featureProduct');
+  banner.classList.add('is-changing');
+  $('featureKicker').textContent = hasLive && !!$('rankNote').textContent ? 'Top-selling on Amazon.in' : 'Popular pick · auto-rotating';
+  $('featureTitle').textContent = it.name;
+  $('featureDescription').textContent = it.why || ('Explore ' + it.name.toLowerCase() + ' and check compatibility, features and recent reviews before buying.');
+  $('featureShop').href = '#affiliate-results';
+  $('featureShop').dataset.productName = it.name;
+  $('featureShop').setAttribute('aria-label','See top 10 related picks for ' + it.name);
+  $('featureExplore').setAttribute('aria-label','Find ' + it.name + ' in the product list');
+  $('featureNote').textContent = hasLive && !!$('rankNote').textContent
+    ? 'Based on available Amazon.in sales-rank data · rankings can change'
+    : 'Curated recommendations · not a live Amazon sales ranking';
+  product.replaceChildren(visual(it,'feature-product-visual'));
+  const icon = product.querySelector('.ico svg');
+  if (icon){icon.style.width='110px';icon.style.height='110px';}
+  // Put the plate over the product illustration without changing the common product renderer.
+  product.style.setProperty('--bg',(CAT_META[it.category]||CAT_DEFAULT).bg);
+  product.style.setProperty('--fg',(CAT_META[it.category]||CAT_DEFAULT).fg);
+  $('featureDots').replaceChildren(...featureList.map((item,i)=>{
+    const dot=el('button','feature-dot'); dot.type='button'; dot.setAttribute('aria-label','Show featured product: '+item.name); dot.setAttribute('aria-current',String(i===featureIndex)); dot.addEventListener('click',()=>{showFeature(i);restartFeatureTimer();}); return dot;
+  }));
+  requestAnimationFrame(()=>banner.classList.remove('is-changing'));
+}
+function restartFeatureTimer(){
+  if(featureTimer) clearInterval(featureTimer);
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  featureTimer=setInterval(()=>{
+    if(document.hidden || $('featureBanner').matches(':hover') || $('featureBanner').contains(document.activeElement)) return;
+    showFeature(featureIndex+1);
+  },3200);
+}
+function buildFeature(){
+  const ranked = items.slice(0,8); // Live data is sales-ranked only when the feed explicitly declares Amazon sales rank.
+  featureList = ranked.length ? ranked : builtinItems().slice(0,8);
+  showFeature(0); restartFeatureTimer();
+  $('featureExplore').addEventListener('click',()=>jumpToProduct(featureList[featureIndex]));
+}
+
+
+/* Selected-car reference image lookup via Wikimedia Commons */
+let carImageRequest=0;
+function updateCarPreview(){
+ const panel=$('carPreview'),img=$('carPreviewImage'),fallback=$('carPreviewFallback'),name=$('carPreviewName'),status=$('carPreviewStatus'),source=$('carPreviewSource');
+ if(!selectedCar){panel.hidden=true;img.hidden=true;img.removeAttribute('src');source.hidden=true;return;}
+ panel.hidden=false;img.hidden=true;img.removeAttribute('src');fallback.hidden=false;source.hidden=true;name.textContent=carLabel();status.textContent='Looking for a matching vehicle photo…';
+ const request=++carImageRequest, query=(selectedCar.brand+' '+selectedCar.model+' car exterior').trim();
+ const url='https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch='+encodeURIComponent(query)+'&gsrnamespace=6&gsrlimit=20&prop=imageinfo&iiprop=url%7Cextmetadata&iiurlwidth=900&format=json&origin=*';
+ fetch(url).then(r=>{if(!r.ok)throw new Error('search unavailable');return r.json();}).then(data=>{
+  if(request!==carImageRequest)return;
+  const pages=Object.values(data.query?.pages||{}),norm=x=>(x||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(),wanted=norm(selectedCar.model).split(' ').filter(x=>x.length>1),brand=norm(selectedCar.brand);
+  const scored=pages.map(page=>{const title=norm(page.title);const info=(page.imageinfo||[])[0]||{};const meta=info.extmetadata||{};const license=(meta.LicenseShortName?.value||'').toLowerCase();const usage=(meta.UsageTerms?.value||'').toLowerCase();const isPublicDomain=/public domain|cc0|cc-zero|creative commons zero/.test(license+' '+usage);let score=0;if(brand&&title.includes(brand))score+=3;for(const w of wanted)if(title.includes(w))score+=2;if(/car|vehicle|automobile|suv|sedan|hatchback/.test(title))score+=1;if(/logo|badge|engine|interior|wheel|toy|model kit/.test(title))score-=5;return {page,info,score,isPublicDomain};}).filter(x=>x.isPublicDomain).sort((a,b)=>b.score-a.score);
+  const best=scored.find(x=>x.score>=Math.max(2,wanted.length*1.3)&&x.info&&(x.info.thumburl||x.info.url));if(!best)throw new Error('no matching public-domain or CC0 image');
+  const info=best.info;img.alt='Public-domain or CC0 reference photo for '+carLabel()+'; verify model year and trim';
+  img.onload=()=>{if(request!==carImageRequest)return;img.hidden=false;fallback.hidden=true;status.textContent='Public-domain/CC0 reference image. Exact year and trim may differ.';source.href=info.descriptionurl||'https://commons.wikimedia.org/';source.hidden=false;};
+  img.onerror=()=>{if(request!==carImageRequest)return;panel.hidden=true;img.hidden=true;img.removeAttribute('src');};img.src=info.thumburl||info.url;
+ }).catch(()=>{if(request!==carImageRequest)return;panel.hidden=true;img.hidden=true;img.removeAttribute('src');source.hidden=true;});
+}
+function wireFeatureSwipe(){
+ const banner=$('featureBanner');let startX=0,startY=0,tracking=false;
+ const begin=(x,y)=>{startX=x;startY=y;tracking=true;if(featureTimer)clearInterval(featureTimer);};
+ const finish=(x,y)=>{if(!tracking)return;tracking=false;const dx=x-startX,dy=y-startY;if(Math.abs(dx)>42&&Math.abs(dx)>Math.abs(dy)*1.25)showFeature(featureIndex+(dx<0?1:-1));restartFeatureTimer();};
+ banner.addEventListener('touchstart',e=>{if(e.touches.length===1)begin(e.touches[0].clientX,e.touches[0].clientY);},{passive:true});
+ banner.addEventListener('touchend',e=>{if(e.changedTouches.length)finish(e.changedTouches[0].clientX,e.changedTouches[0].clientY);},{passive:true});
+ banner.addEventListener('touchcancel',()=>{tracking=false;restartFeatureTimer();},{passive:true});
+ let pointerId=null;banner.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button===0){pointerId=e.pointerId;begin(e.clientX,e.clientY);}});banner.addEventListener('pointerup',e=>{if(pointerId===e.pointerId){pointerId=null;finish(e.clientX,e.clientY);}});banner.addEventListener('pointercancel',()=>{pointerId=null;tracking=false;restartFeatureTimer();});
+}
+wireFeatureSwipe();
+
+/* ---------- Load: live products.json if present, else the built-in list ---------- */
+async function load(){
+  $('brandName').textContent = CONFIG.brandName;
+  let date = CONFIG.listDate;
+  items = builtinItems();
+  try {
+    const res = await fetch(CONFIG.dataUrl, {cache:'no-store'});
+    if (res.ok){
+      const data = await res.json();
+      if (Array.isArray(data.items) && data.items.length){
+        const asOf = data.priceAsOf || data.updated;
+        const fresh = !!asOf && (Date.now() - new Date(asOf).getTime()) < 24 * 3600 * 1000;   // Amazon data must be under 24 hours old
+        items = data.items.slice(0, 100).map((it, i) => {
+          const g = GUIDE_BY_NAME[it.name] || {};
+          return {
+            rank: it.rank || i + 1,
+            name: it.name,
+            title: it.title,
+            category: it.category || g.category || 'Car accessories',
+            query: it.query || g.query,
+            asin: it.asin,
+            price: fresh ? it.price : undefined,
+            priceText: fresh ? it.priceText : undefined,
+            image: fresh ? it.image : undefined,
+            salesRank: fresh ? it.salesRank : undefined,
+            deal: fresh ? it.deal : undefined,
+            rated: fresh ? it.rated : undefined,
+            why: it.why || g.why,
+            tips: Array.isArray(it.tips) ? it.tips : (g.tips || [])
+          };
+        });
+        if (data.updated) date = data.updated;
+        hasLive = fresh && items.some(i => i.asin && i.price);
+        if (fresh){
+          priceAsOfText = new Date(asOf).toLocaleString('en-IN', {day:'numeric', month:'short', hour:'numeric', minute:'2-digit', timeZone:'Asia/Kolkata'}) + ' IST';
+          $('priceNote').textContent = 'Product prices and availability are accurate as of the date and time indicated and are subject to change. Any price and availability information displayed on Amazon.in at the time of purchase will apply to the purchase of this product.';
+          $('priceNote').hidden = false;
+          if (data.rankedBy === 'amazon-sales-rank'){
+            $('rankNote').textContent = 'Products are ranked by their Amazon.in sales rank where Amazon provides one.';
+            $('rankNote').hidden = false;
+          }
+        }
+      }
+    }
+  } catch (e) { /* no products.json yet: keep the built-in list */ }
+  showDate(date);
+  fillBrands(); fillModels(); restoreCar(); updateCarUI(); updateCarPreview();
+  buildCarousel();
+  buildChips();
+  render();
+  renderShelves();
+  buildFeature();
+}
+
+$('reset').addEventListener('click', () => {
+  term = ''; $q.value = ''; activeCat = 'All'; syncChips(); render(); hideSuggestions();
+});
+
+
+
+/* ---------- Dedicated Categories and Popular Picks pages ---------- */
+const browseDialog = $('browseDialog');
+const browseContent = $('browseContent');
+const browseHeading = $('browseHeading');
+const browseSubtitle = $('browseSubtitle');
+let browseKind = 'home';
+let browseCategory = null;
+let affiliateOrigin = 'popular';
+let affiliateItem = null;
+function setDockActive(name){
+  document.querySelectorAll('.dock-btn').forEach(b=>b.classList.toggle('active',b.dataset.dock===name));
+}
+function categoryNames(){
+  return ['All', ...new Set(shown().map(it=>it.category).filter(Boolean))];
+}
+function renderBrowseCategories(){
+  browseKind='categories';browseCategory=null;
+  browseHeading.textContent='All Categories';
+  browseSubtitle.textContent='Choose a category to see matching products';
+  browseContent.replaceChildren();
+  const grid=el('div','browse-categories');
+  categoryNames().forEach(name=>{
+    const original=[...$chips.querySelectorAll('.chip')].find(b=>b.querySelector('.chip-label')?.textContent===name);
+    const btn=el('button','browse-category');btn.type='button';
+    const icon=el('span','chip-icon');
+    if(original){
+      const originalIcon=original.querySelector('.chip-icon');
+      if(originalIcon){icon.innerHTML=originalIcon.innerHTML;icon.style.cssText=originalIcon.style.cssText;}
+    }else if(name==='All'){
+      icon.innerHTML='<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 17h32l-3 24H11z"/><path d="M17 18v-5a7 7 0 0 1 14 0v5"/><path d="M18 27h12"/></svg>';
+    }
+    btn.append(icon,el('span','',name));
+    btn.addEventListener('click',()=>renderCategoryProducts(name));
+    grid.appendChild(btn);
+  });
+  browseContent.appendChild(grid);
+  browseContent.scrollTop=0;
+  setDockActive('categories');
+}
+function renderCategoryProducts(name){
+  browseKind='category-products';browseCategory=name;
+  browseHeading.textContent=name==='All'?'All Accessories':name;
+  browseSubtitle.textContent='Browse matching products and open a product link when ready to shop';
+  browseContent.replaceChildren();
+  const back=el('button','btn ghost small','← All categories');
+  back.type='button';back.style.margin='0 0 14px';
+  back.addEventListener('click',renderBrowseCategories);
+  browseContent.appendChild(back);
+  const grid=el('div','browse-products');
+  const pool=shown().filter(it=>name==='All'||it.category===name);
+  if(pool.length) grid.replaceChildren(...pool.map(it=>card(it)));
+  else grid.appendChild(el('p','browse-empty','No products are available in this category right now. Choose another category.'));
+  browseContent.appendChild(grid);
+  browseContent.scrollTop=0;
+  setDockActive('categories');
+}
+function renderPopularPage(){
+  browseKind='popular';browseCategory=null;
+  browseHeading.textContent='Popular Picks';
+  browseSubtitle.textContent='Choose a product to view buying tips or open its Amazon listing';
+  browseContent.replaceChildren();
+  const grid=el('div','browse-products');
+  const pool=shown().slice(0,Math.max(CONFIG.carouselCount||12,12));
+  if(pool.length) grid.replaceChildren(...pool.map(it=>card(it)));
+  else grid.appendChild(el('p','browse-empty','Popular picks are loading. Please try again in a moment.'));
+  browseContent.appendChild(grid);
+  browseContent.scrollTop=0;
+  setDockActive('popular');
+}
+function productTerms(it){
+  return (it.name+' '+(it.query||'')+' '+it.category+' '+(it.why||'')).toLowerCase().split(/[^a-z0-9]+/).filter(w=>w.length>2);
+}
+function affiliateRelatedProducts(it){
+  const pool=shown();
+  const terms=new Set(productTerms(it));
+  const scored=pool.map((p,index)=>{
+    const other=new Set(productTerms(p));
+    let score=0;
+    if(p.name===it.name) score+=100;
+    if(p.category===it.category) score+=20;
+    for(const word of terms) if(other.has(word)) score+=2;
+    if(p.asin) score+=1;
+    return {p,index,score};
+  }).sort((a,b)=>b.score-a.score||a.index-b.index);
+  const out=[];
+  for(const item of scored){if(!out.some(p=>p.name===item.p.name))out.push(item.p);if(out.length===10)break;}
+  return out;
+}
+function renderAffiliateResults(it){
+  affiliateItem=it;
+  if(browseKind==='category-products') affiliateOrigin='category-products'; else if(browseKind==='categories') affiliateOrigin='categories'; else affiliateOrigin='popular';
+  browseKind='affiliate-results';browseCategory=null;
+  browseHeading.textContent='Top 10 Picks';
+  browseSubtitle.textContent='Relevant products with your Amazon Associates tag';
+  browseContent.replaceChildren();
+  const back=el('button','btn ghost small','← Back');
+  back.type='button';back.style.margin='0 0 14px';
+  back.addEventListener('click',()=>{ if(affiliateOrigin==='category-products' && it)renderCategoryProducts(it.category); else if(affiliateOrigin==='categories')renderBrowseCategories(); else renderPopularPage(); });
+  browseContent.appendChild(back);
+  const intro=el('p','affiliate-intro','Showing up to 10 relevant products from the J3vlogs Car Picks catalogue for “'+it.name+'”. Choose “View on Amazon” to open Amazon.in with your affiliate tracking tag. These are app recommendations, not Amazon’s live search ranking; live Amazon rankings require an approved Product Advertising API integration.');
+  browseContent.appendChild(intro);
+  const grid=el('div','browse-products');
+  const pool=affiliateRelatedProducts(it);
+  pool.forEach((p,i)=>{
+    const item=el('article','affiliate-result-card');
+    item.appendChild(visual({...p,rank:i+1},'media'));
+    const body=el('div','cbody');
+    body.appendChild(el('span','pill hot','Pick '+(i+1)+' · '+p.category));
+    body.appendChild(el('h3','name',p.name));
+    if(p.why)body.appendChild(el('p','why',p.why));
+    if(p.price)body.appendChild(el('p','price',p.priceText||('₹'+Number(p.price).toLocaleString('en-IN'))));
+    const actions=el('div','actions');
+    const link=el('a','btn buy','View on Amazon.in ↗');
+    link.href=amazonLink(p);link.target='_blank';link.rel='sponsored nofollow noopener';
+    link.setAttribute('aria-label','Open '+p.name+' on Amazon.in with affiliate tracking');
+    actions.appendChild(link);body.appendChild(actions);item.appendChild(body);grid.appendChild(item);
+  });
+  if(!pool.length)grid.appendChild(el('p','browse-empty','No matching products were found. Browse Popular Picks instead.'));
+  browseContent.appendChild(grid);browseContent.scrollTop=0;setDockActive('popular');
+}
+function openAffiliateResults(it){
+  if(!it) return;
+  if($('sheet')?.open)$('sheet').close();
+  if(askDialog?.open)askDialog.close();
+  renderAffiliateResults(it);
+  if(!browseDialog.open)browseDialog.showModal();
+}
+$('featureShop').addEventListener('click',e=>{
+  e.preventDefault();
+  const name=$('featureShop').dataset.productName;
+  const it=shown().find(p=>p.name===name)||featureList[featureIndex];
+  if(it)openAffiliateResults(it);
+});
+function openBrowsePage(kind){
+  if(kind==='categories') renderBrowseCategories();
+  else if(kind==='affiliate-results' && window.currentAffiliateItem) renderAffiliateResults(window.currentAffiliateItem);
+  else renderPopularPage();
+  if(!browseDialog.open) browseDialog.showModal();
+}
+$('openCategories').addEventListener('click',()=>openBrowsePage('categories'));
+$('openPopular').addEventListener('click',()=>openBrowsePage('popular'));
+$('browseBack').addEventListener('click',()=>{
+  if(browseKind==='category-products') { renderBrowseCategories(); return; }
+  browseDialog.close();browseKind='home';browseCategory=null;setDockActive('home');
+});
+browseDialog.addEventListener('click',e=>{if(e.target===browseDialog){browseDialog.close();browseKind='home';browseCategory=null;setDockActive('home');}});
+browseDialog.addEventListener('close',()=>{if(!askDialog?.open){browseKind='home';browseCategory=null;setDockActive('home');}});
+
+/* ---------- Bottom dock and in-page Ask Me helper ---------- */
+const askDialog = $('askDialog');
+const askMessages = $('askMessages');
+const askInput = $('askInput');
+function openAsk(){ if (askDialog && !askDialog.open) askDialog.showModal(); }
+function closeAsk(){ if (askDialog && askDialog.open) askDialog.close(); }
+$('openAsk').addEventListener('click', openAsk);
+$('closeAsk').addEventListener('click', closeAsk);
+askDialog.addEventListener('click', e => { if (e.target === askDialog) closeAsk(); });
+function addAskMessage(text, who='bot', products=[]){
+  const msg=el('div','ask-msg '+who);
+  msg.textContent=text;
+  if(products.length){
+    const list=el('div','ask-products');
+    products.forEach(it=>{
+      const row=el('div','ask-product');
+      row.appendChild(el('strong','',it.name));
+      const a=el('a','', 'View affiliate picks on Amazon ↗');a.href='#affiliate-results';
+      a.addEventListener('click',e=>{e.preventDefault();openAffiliateResults(it);});
+      row.appendChild(a);list.appendChild(row);
+    });
+    msg.appendChild(list);
+  }
+  askMessages.appendChild(msg);askMessages.scrollTop=askMessages.scrollHeight;
+  return msg;
+}
+function askSafeText(html){
+  const doc=new DOMParser().parseFromString(String(html||''),'text/html');
+  return (doc.body.textContent||'').replace(/\s+/g,' ').trim();
+}
+function askSearchLinks(query){
+  const q=encodeURIComponent(query+' car automotive');
+  const links=el('div','ask-search-links');
+  const google=el('a','','Open Google Search ↗');google.href='https://www.google.com/search?q='+q;google.target='_blank';google.rel='noopener noreferrer';
+  const reddit=el('a','','Open Reddit Search ↗');reddit.href='https://www.reddit.com/search/?q='+q;reddit.target='_blank';reddit.rel='noopener noreferrer';
+  links.append(google,reddit);return links;
+}
+async function askFetchRss(rssUrl){
+  // Public RSS-to-JSON bridge keeps this static HTML usable without exposing an API key.
+  const endpoint='https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(rssUrl);
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),8000);
+  try{
+    const res=await fetch(endpoint,{signal:controller.signal,headers:{'Accept':'application/json'}});
+    if(!res.ok)throw new Error('Search feed unavailable');
+    const data=await res.json();
+    if(data.status!=='ok'||!Array.isArray(data.items))throw new Error('No feed results');
+    return data.items.slice(0,4).map(x=>({title:askSafeText(x.title)||'Open source result',link:x.link||'',description:askSafeText(x.description||x.content||'').slice(0,220),date:x.pubDate||''})).filter(x=>x.link&&/^https?:\/\//i.test(x.link));
+  }finally{clearTimeout(timeout);}
+}
+function renderAskResearch(query,container,googleItems,redditItems,errors=[]){
+  container.replaceChildren();
+  container.appendChild(askSearchLinks(query));
+  const renderGroup=(title,items)=>{
+    const group=el('div','ask-source-group');group.appendChild(el('div','ask-source-heading',title));
+    if(!items.length){group.appendChild(el('div','ask-source-status','No preview results loaded. Use the search buttons above for current results.'));}
+    items.forEach(item=>{
+      const a=el('a','ask-source-result');a.href=item.link;a.target='_blank';a.rel='noopener noreferrer';
+      a.appendChild(el('strong','',item.title));
+      if(item.description)a.appendChild(el('small','',item.description));
+      if(item.date)a.appendChild(el('small','',new Date(item.date).toLocaleDateString('en-IN',{year:'numeric',month:'short',day:'numeric'})));
+      group.appendChild(a);
+    });
+    container.appendChild(group);
+  };
+  renderGroup('Google News results',googleItems);
+  renderGroup('Reddit discussions',redditItems);
+  if(errors.length)container.appendChild(el('div','ask-source-status','Some search previews could not load. Google and Reddit search links remain available.'));
+  askMessages.scrollTop=askMessages.scrollHeight;
+}
+async function searchAskSources(query){
+  const q=String(query||'').trim();
+  const msg=el('div','ask-msg bot');
+  msg.appendChild(el('strong','ask-chat-heading','Relevant web results'));
+  msg.appendChild(el('div','ask-chat-summary','Searching Google News and Reddit for useful results related to your question…'));
+  askMessages.appendChild(msg);askMessages.scrollTop=askMessages.scrollHeight;
+  const googleUrl='https://news.google.com/rss/search?q='+encodeURIComponent(q+' car OR automotive OR EV')+'&hl=en-IN&gl=IN&ceid=IN:en';
+  const redditUrl='https://www.reddit.com/search.rss?q='+encodeURIComponent(q+' (car OR automotive OR EV)')+'&sort=relevance&t=year';
+  const [googleResult,redditResult]=await Promise.allSettled([askFetchRss(googleUrl),askFetchRss(redditUrl)]);
+  const googleItems=googleResult.status==='fulfilled'?googleResult.value:[];
+  const redditItems=redditResult.status==='fulfilled'?redditResult.value:[];
+  msg.querySelector('.ask-chat-summary')?.remove();
+  const addSourceGroup=(label,items)=>{
+    if(!items.length)return;
+    msg.appendChild(el('strong','ask-chat-heading',label));
+    items.slice(0,4).forEach(item=>{
+      const row=el('div','ask-chat-result');
+      const a=el('a','',item.title);a.href=item.link;a.target='_blank';a.rel='noopener noreferrer';
+      row.appendChild(a);
+      if(item.description)row.appendChild(el('p','ask-chat-result-snippet',item.description));
+      if(item.date)row.appendChild(el('small','ask-chat-footnote',new Date(item.date).toLocaleDateString('en-IN',{year:'numeric',month:'short',day:'numeric'})));
+      msg.appendChild(row);
+    });
+  };
+  addSourceGroup('Google News',googleItems);
+  addSourceGroup('Reddit discussions',redditItems);
+  if(!googleItems.length&&!redditItems.length){
+    msg.appendChild(el('div','ask-chat-summary','I couldn’t load source previews in this browser. I won’t invent results; use these links to view current results for your question.'));
+  }
+  msg.appendChild(askSearchLinks(q));
+  askMessages.scrollTop=askMessages.scrollHeight;
+}
+
+function answerAsk(raw){
+  const q=raw.toLowerCase();
+  const pool=(items&&items.length?items:builtinItems());
+  // Product cards appear only when the user explicitly asks to buy, compare, find,
+  // or get a recommendation/link for a product/accessory.
+  const wantsProducts=/(recommend|suggest|buy|shopping|product|accessor|affiliate|amazon link|purchase|which .* (buy|get|choose)|best .* (dash cam|camera|inflator|charger|cover|mat|holder|accessor|tyre|tire)|dash cam|dashcam|tyre inflator|tire inflator|phone holder|seat cover|floor mat|car charger)/.test(q);
+  if(wantsProducts){
+    const words=q.split(/[^a-z0-9]+/).filter(w=>w.length>2 && !['what','which','with','for','the','and','can','you','are','best','suggest','recommend','please','show','give','want','need','about','from','this','that','how','car','cars','my','your','product','accessory','accessories'].includes(w));
+    let matched=pool.map((it,index)=>{
+      const hay=(it.name+' '+it.category+' '+(it.query||'')+' '+(it.why||'')).toLowerCase();
+      let score=0;words.forEach(w=>{if(hay.includes(w))score+=w.length>5?3:1;});
+      if(/dash cam|dashcam|camera|record/.test(q)&&/dash camera|camera/.test(hay))score+=8;
+      if(/tyre|tire|inflator|puncture/.test(q)&&/tyre|tire|inflator/.test(hay))score+=8;
+      if(/phone|mount|holder/.test(q)&&/phone holder|mobile holder/.test(hay))score+=8;
+      if(/floor mat|mats/.test(q)&&/floor mat/.test(hay))score+=8;
+      if(/seat cover/.test(q)&&/seat cover/.test(hay))score+=8;
+      if(/charger|charging cable/.test(q)&&/charger/.test(hay))score+=8;
+      return {it,index,score};
+    }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score||a.index-b.index).map(x=>x.it);
+    matched=matched.filter((it,i,arr)=>arr.findIndex(p=>p.name===it.name)===i).slice(0,3);
+    if(matched.length){
+      addAskMessage('You asked for product suggestions. Here are relevant matches from the J3vlogs Car Picks catalogue. Open the picks page to compare them; shopping links use your Amazon Associates tag. Check fitment, seller and current price before buying.','bot',matched);
+    }else{
+      addAskMessage('I couldn’t find a close match in the J3vlogs Car Picks catalogue, so I won’t recommend an unrelated product. Try naming the accessory or vehicle model.','bot');
+    }
+    return;
+  }
+  // For informational questions, show sourced result titles/snippets in the chat.
+  // Do not add product cards unless the user explicitly asks for products.
+  searchAskSources(raw);
+}
+$('askForm').addEventListener('submit',e=>{
+  e.preventDefault();const value=askInput.value.trim();if(!value)return;
+  addAskMessage(value,'user');askInput.value='';answerAsk(value);
+});
+document.querySelectorAll('.ask-suggestion').forEach(btn=>btn.addEventListener('click',()=>{askInput.value=btn.textContent;askInput.focus();}));
+// Keep the dock's active state in sync with the selected navigation target.
+document.querySelectorAll('[data-dock]:not([data-dock="ask"])').forEach(link=>link.addEventListener('click',()=>{
+  document.querySelectorAll('.dock-btn').forEach(b=>b.classList.remove('active'));
+  link.classList.add('active');
+}));
+const dockTargets=[['top','home'],['all','categories'],['popularPicks','popular']];
+if('IntersectionObserver' in window){
+  const dockObserver=new IntersectionObserver(entries=>{
+    const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];
+    if(!visible || (browseDialog && browseDialog.open))return;const pair=dockTargets.find(([id])=>id===visible.target.id);if(!pair)return;
+    document.querySelectorAll('.dock-btn').forEach(b=>b.classList.toggle('active',b.dataset.dock===pair[1]));
+  },{rootMargin:'-15% 0px -65% 0px',threshold:[0,.1,.25]});
+  dockTargets.forEach(([id])=>{const target=$(id);if(target)dockObserver.observe(target);});
+}
+
+/* ---------- Persistent bottom navigation inside every in-app page ---------- */
+(function installPersistentDock(){
+  const mainDock=document.querySelector('body > .bottom-dock');
+  const browse=document.getElementById('browseDialog');
+  const ask=document.getElementById('askDialog');
+  const sheet=document.getElementById('sheet');
+  if(!mainDock||!browse||!ask)return;
+  function makeDockCopy(dialog){
+    if(dialog.querySelector(':scope > .bottom-dock'))return dialog.querySelector(':scope > .bottom-dock');
+    const copy=mainDock.cloneNode(true);
+    copy.removeAttribute('id');
+    copy.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));
+    copy.setAttribute('aria-label','Main navigation');
+    copy.classList.add('modal-dock');
+    dialog.appendChild(copy);
+    copy.addEventListener('click',e=>{
+      const btn=e.target.closest('[data-dock]');
+      if(!btn)return;
+      e.preventDefault();
+      const kind=btn.dataset.dock;
+      if(kind==='home'){
+        if(browse.open)browse.close();
+        if(ask.open)ask.close();
+        if(sheet && sheet.open)sheet.close();
+        setDockActive('home');
+        window.scrollTo({top:0,behavior:'smooth'});
+      }else if(kind==='categories'){
+        if(ask.open)ask.close();
+        if(sheet && sheet.open)sheet.close();
+        openBrowsePage('categories');
+      }else if(kind==='popular'){
+        if(ask.open)ask.close();
+        if(sheet && sheet.open)sheet.close();
+        openBrowsePage('popular');
+      }else if(kind==='ask'){
+        if(browse.open)browse.close();
+        if(sheet && sheet.open)sheet.close();
+        openAsk();
+      }
+    });
+    return copy;
+  }
+  makeDockCopy(browse);
+  makeDockCopy(ask);
+  if(sheet)makeDockCopy(sheet);
+  // When the modal is open, highlight its current destination in the visible dock copy.
+  const sync=()=>{
+    const visibleKind=ask.open?'ask':browse.open?(browseKind==='popular'?'popular':'categories'):'home';
+    setDockActive(visibleKind);
+  };
+  browse.addEventListener('close',sync);
+  ask.addEventListener('close',sync);
+  if(sheet)sheet.addEventListener('close',sync);
+  const oldOpenBrowsePage=openBrowsePage;
+  window.openBrowsePage=oldOpenBrowsePage;
+  const oldOpenAsk=openAsk;
+  window.openAsk=oldOpenAsk;
+  const browseOpenButton=document.getElementById('openCategories');
+  const popularOpenButton=document.getElementById('openPopular');
+  const askOpenButton=document.getElementById('openAsk');
+  if(browseOpenButton)browseOpenButton.addEventListener('click',()=>setDockActive('categories'));
+  if(popularOpenButton)popularOpenButton.addEventListener('click',()=>setDockActive('popular'));
+  if(askOpenButton)askOpenButton.addEventListener('click',()=>setDockActive('ask'));
+})();
+
+load();
+</script>
+</body>
+</html>
